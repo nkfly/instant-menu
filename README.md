@@ -203,3 +203,103 @@ Restaurants should be able to import an existing menu in minutes and automatical
 - Future integrations
 
 All from a single source of truth.
+
+## Current POC Status
+
+The first restaurant POC is now set up in this repository.
+
+### Restaurant
+
+- `noodle_villa_ueno`
+- Source restaurant name in the screenshots: `黔莊 - 上野`
+
+### What Has Been Done
+
+- Created a restaurant-specific directory at `noodle_villa_ueno/`
+- Stored the screenshot set under `noodle_villa_ueno/screenshots/`
+- Read 23 screenshots from the restaurant's mobile ordering menu
+- Extracted a first-pass structured menu JSON
+- Saved the generated file in the repo at `noodle_villa_ueno/menu.json`
+
+### Current Extraction Coverage
+
+The current JSON includes these visible categories from the screenshots:
+
+- `新品推荐`
+- `进店必点`
+- `套餐`
+- `夏季限定`
+- `牛肉粉`
+- `羊肉粉`
+- `酸辣粉`
+- `小吃`
+
+### Known Limitations
+
+- This is a first-pass extraction and still requires human review.
+- Some tabs appear to exist beyond the captured screenshots, especially `另加` and `经典`.
+- Some items appear in multiple categories, which may be intentional merchandising rather than duplicates.
+- At least one partially visible item price was inferred from nearby items.
+
+## Repository Structure
+
+```text
+instant-menu/
+├── README.md
+└── noodle_villa_ueno/
+    ├── menu.json
+    └── screenshots/
+```
+
+## Sample Generated Menu JSON
+
+Full file:
+
+- `noodle_villa_ueno/menu.json`
+
+Example excerpt:
+
+```json
+{
+  "restaurant": {
+    "slug": "noodle_villa_ueno",
+    "display_name": "黔莊 - 上野",
+    "internal_name": "Noodle Villa Ueno"
+  },
+  "source": {
+    "type": "screenshots",
+    "language": "zh-CN",
+    "image_count": 23,
+    "image_directory": "screenshots"
+  },
+  "extraction": {
+    "status": "first_pass",
+    "review_required": true
+  },
+  "categories": [
+    {
+      "name": "新品推荐",
+      "items": [
+        {
+          "name": "啤酒自选套餐",
+          "price_jpy": 1380,
+          "description": null
+        },
+        {
+          "name": "油酥花生",
+          "price_jpy": 320,
+          "description": null
+        }
+      ]
+    }
+  ]
+}
+```
+
+## Next Steps
+
+- Review the extracted menu JSON against the screenshots
+- Normalize the schema for reusable ingestion across restaurants
+- Add item IDs, image references, and confidence scores per item
+- Generate the first menu webpage from the structured JSON
+- Generate the first printable PDF from the same source data

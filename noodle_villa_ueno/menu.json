@@ -1,0 +1,412 @@
+{
+  "restaurant": {
+    "slug": "noodle_villa_ueno",
+    "display_name": "黔莊 - 上野",
+    "internal_name": "Noodle Villa Ueno"
+  },
+  "source": {
+    "type": "screenshots",
+    "language": "zh-CN",
+    "image_count": 23,
+    "image_directory": "screenshots"
+  },
+  "extraction": {
+    "status": "first_pass",
+    "review_required": true,
+    "notes": [
+      "This JSON was extracted from the provided screenshots only.",
+      "Some menu tabs appear to exist beyond the captured screenshots, especially `另加` and `经典`, so the menu may be incomplete.",
+      "A few items appear in multiple categories such as `新品推荐`, `进店必点`, and `小吃`.",
+      "One summer-limited item, `冷吃鸡丝拌粉(番茄口味)`, is partially visible but its price is inferred from neighboring items."
+    ]
+  },
+  "categories": [
+    {
+      "name": "新品推荐",
+      "items": [
+        {
+          "name": "啤酒自选套餐",
+          "price_jpy": 1380,
+          "description": null
+        },
+        {
+          "name": "油酥花生",
+          "price_jpy": 320,
+          "description": null
+        },
+        {
+          "name": "白卤毛豆",
+          "price_jpy": 320,
+          "description": null
+        },
+        {
+          "name": "干拌羊肚",
+          "price_jpy": 580,
+          "description": null
+        },
+        {
+          "name": "现拉手工牛肉宽面",
+          "price_jpy": 1480,
+          "description": null
+        },
+        {
+          "name": "现拉手工牛肉面条",
+          "price_jpy": 1480,
+          "description": null
+        }
+      ]
+    },
+    {
+      "name": "进店必点",
+      "items": [
+        {
+          "name": "原汤辣羊杂粉",
+          "price_jpy": 1380,
+          "description": null
+        },
+        {
+          "name": "糊辣椒香嫩牛肉粉",
+          "price_jpy": 1480,
+          "description": null
+        },
+        {
+          "name": "原汤羊大骨粉",
+          "price_jpy": 1480,
+          "description": null
+        },
+        {
+          "name": "香辣牛肉土豆泥拌粉",
+          "price_jpy": 1380,
+          "description": null
+        },
+        {
+          "name": "番茄牛肉土豆泥拌粉",
+          "price_jpy": 1380,
+          "description": null
+        },
+        {
+          "name": "麻辣虎皮鸡爪",
+          "price_jpy": 500,
+          "description": null
+        },
+        {
+          "name": "溏心炸蛋",
+          "price_jpy": 150,
+          "description": "不是煎蛋，是炸蛋，很香！"
+        },
+        {
+          "name": "自制山楂乌梅水",
+          "price_jpy": 380,
+          "description": null
+        }
+      ]
+    },
+    {
+      "name": "套餐",
+      "items": [
+        {
+          "name": "特惠套餐（糊辣椒香嫩牛肉粉+溏心炸蛋+健力宝）",
+          "price_jpy": 1480,
+          "description": null,
+          "sold_out": true
+        },
+        {
+          "name": "啤酒自选套餐",
+          "price_jpy": 1380,
+          "description": null
+        }
+      ]
+    },
+    {
+      "name": "夏季限定",
+      "items": [
+        {
+          "name": "冷吃鸡丝拌粉(鲜辣味)",
+          "price_jpy": 1380,
+          "description": null
+        },
+        {
+          "name": "冷吃鸡丝拌粉(番茄口味)",
+          "price_jpy": 1380,
+          "description": null,
+          "price_inferred": true
+        },
+        {
+          "name": "冷吃牛肉拌粉(番茄味)",
+          "price_jpy": 1380,
+          "description": null
+        },
+        {
+          "name": "冷吃牛肉拌粉(鲜辣味)",
+          "price_jpy": 1380,
+          "description": null
+        },
+        {
+          "name": "冷吃牛肉拌粉(麻辣味)",
+          "price_jpy": 1380,
+          "description": null
+        }
+      ]
+    },
+    {
+      "name": "牛肉粉",
+      "items": [
+        {
+          "name": "清炖牛肉粉",
+          "price_jpy": 1380,
+          "description": "牛肉粑软，汤汁浓香"
+        },
+        {
+          "name": "红烧牛肉粉",
+          "price_jpy": 1380,
+          "description": "回味香浓，米粉Q弹"
+        },
+        {
+          "name": "半肉半筋粉",
+          "price_jpy": 1480,
+          "description": "牛筋+牛肋条的组合，非常劲道！"
+        },
+        {
+          "name": "红烧牛肋条粉",
+          "price_jpy": 1580,
+          "description": "好吃不过贴骨肉，说的就是牛肋条"
+        },
+        {
+          "name": "番茄牛腩粉",
+          "price_jpy": 1480,
+          "description": "汤红味鲜，浓厚的番茄汤，回味略甜"
+        },
+        {
+          "name": "酸菜牛肉粉",
+          "price_jpy": 1480,
+          "description": "老坛酸菜从来都是销售冠军"
+        },
+        {
+          "name": "椒麻牛肉粉",
+          "price_jpy": 1480,
+          "description": "又麻又辣，还带点清香，麻辣爱好者..."
+        },
+        {
+          "name": "泡椒牛肉粉",
+          "price_jpy": 1480,
+          "description": "川菜的灵魂佐料，酸辣鲜香，异常开胃"
+        },
+        {
+          "name": "糊辣椒香牛肉粉",
+          "price_jpy": 1480,
+          "description": null
+        },
+        {
+          "name": "糊辣椒香嫩牛肉粉",
+          "price_jpy": 1480,
+          "description": null
+        },
+        {
+          "name": "香辣牛肉土豆泥拌粉",
+          "price_jpy": 1380,
+          "description": null
+        },
+        {
+          "name": "番茄牛肉土豆泥拌粉",
+          "price_jpy": 1380,
+          "description": null
+        },
+        {
+          "name": "原汤牛肉汤",
+          "price_jpy": 200,
+          "description": null
+        }
+      ]
+    },
+    {
+      "name": "羊肉粉",
+      "items": [
+        {
+          "name": "原汤羊肉粉",
+          "price_jpy": 1480,
+          "description": "驱寒，暖胃，舒身，好吃又健康"
+        },
+        {
+          "name": "酸菜羊杂粉",
+          "price_jpy": 1380,
+          "description": "羊杂爱好者必点"
+        },
+        {
+          "name": "原汤辣羊肉粉",
+          "price_jpy": 1480,
+          "description": "特别辣椒酱，绝对是让人陶醉的美食"
+        },
+        {
+          "name": "原汤羊杂粉",
+          "price_jpy": 1380,
+          "description": "油而不腻，香辣适中"
+        },
+        {
+          "name": "原汤辣羊杂粉",
+          "price_jpy": 1380,
+          "description": null
+        },
+        {
+          "name": "原汤羊大骨粉",
+          "price_jpy": 1480,
+          "description": null
+        },
+        {
+          "name": "红烧小羊排粉",
+          "price_jpy": 1580,
+          "description": "色香味俱全，让人欲罢不能"
+        },
+        {
+          "name": "酸菜羊肉粉",
+          "price_jpy": 1480,
+          "description": "酸菜酸爽但不咸，羊肉汤香而不膻"
+        },
+        {
+          "name": "椒麻羊肉粉",
+          "price_jpy": 1480,
+          "description": "真材实料，大块吃肉，大口喝汤"
+        },
+        {
+          "name": "椒麻羊杂粉",
+          "price_jpy": 1380,
+          "description": "让羊肉汤变得清香麻辣！"
+        },
+        {
+          "name": "椒麻羊大骨粉",
+          "price_jpy": 1480,
+          "description": null
+        },
+        {
+          "name": "泡椒羊肉粉",
+          "price_jpy": 1480,
+          "description": "色泽红亮，辣而不燥"
+        },
+        {
+          "name": "泡椒羊杂粉",
+          "price_jpy": 1380,
+          "description": "神仙组合，酸辣开胃"
+        },
+        {
+          "name": "泡椒羊大骨粉",
+          "price_jpy": 1480,
+          "description": null
+        },
+        {
+          "name": "糊辣椒香羊肉粉",
+          "price_jpy": 1480,
+          "description": null
+        },
+        {
+          "name": "糊辣椒香羊杂粉",
+          "price_jpy": 1380,
+          "description": null
+        },
+        {
+          "name": "羊肉粉丝汤(不可续米粉)",
+          "price_jpy": 1180,
+          "description": null
+        },
+        {
+          "name": "羊杂粉丝汤(不可续米粉)",
+          "price_jpy": 1080,
+          "description": null
+        },
+        {
+          "name": "原汤羊肉汤",
+          "price_jpy": 200,
+          "description": null
+        }
+      ]
+    },
+    {
+      "name": "酸辣粉",
+      "items": [
+        {
+          "name": "素酸辣粉(不可续米粉)",
+          "price_jpy": 980,
+          "description": null
+        },
+        {
+          "name": "牛肉酸辣粉(不可续米粉)",
+          "price_jpy": 1180,
+          "description": null
+        },
+        {
+          "name": "追加红薯粉",
+          "price_jpy": 200,
+          "description": null
+        }
+      ]
+    },
+    {
+      "name": "小吃",
+      "items": [
+        {
+          "name": "炸羊肉串（2串）",
+          "price_jpy": 580,
+          "description": "绝绝子！外酥内嫩带汁水，孜然味浓"
+        },
+        {
+          "name": "油酥花生",
+          "price_jpy": 320,
+          "description": null
+        },
+        {
+          "name": "白卤毛豆",
+          "price_jpy": 320,
+          "description": null
+        },
+        {
+          "name": "干拌羊肚",
+          "price_jpy": 580,
+          "description": null
+        },
+        {
+          "name": "鹿茸菇锅盔",
+          "price_jpy": 380,
+          "description": null
+        },
+        {
+          "name": "白卤鸡腿",
+          "price_jpy": 580,
+          "description": null
+        },
+        {
+          "name": "芝麻香煎馍",
+          "price_jpy": 180,
+          "description": null
+        },
+        {
+          "name": "麻辣双脆",
+          "price_jpy": 580,
+          "description": null
+        },
+        {
+          "name": "鲜椒双脆",
+          "price_jpy": 580,
+          "description": null
+        },
+        {
+          "name": "椒麻脆肠",
+          "price_jpy": 580,
+          "description": null
+        },
+        {
+          "name": "麻辣虎皮鸡爪",
+          "price_jpy": 500,
+          "description": null
+        },
+        {
+          "name": "渣渣牛肉",
+          "price_jpy": 680,
+          "description": null
+        },
+        {
+          "name": "酱肉锅盔（2个）",
+          "price_jpy": 380,
+          "description": null
+        }
+      ]
+    }
+  ]
+}
