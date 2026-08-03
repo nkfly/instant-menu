@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instant Menu Template</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <div class="hero__eyebrow">AI Menu Generator POC</div>
+        <h1 id="restaurant-name" class="hero__title">Loading menu...</h1>
+        <p id="restaurant-subtitle" class="hero__subtitle">
+          Rendering structured menu JSON into a customer-facing restaurant website.
+        </p>
+        <div class="hero__meta">
+          <div class="hero-stat">
+            <span class="hero-stat__label">Categories</span>
+            <strong id="stat-categories">0</strong>
+          </div>
+          <div class="hero-stat">
+            <span class="hero-stat__label">Items</span>
+            <strong id="stat-items">0</strong>
+          </div>
+          <div class="hero-stat">
+            <span class="hero-stat__label">Source</span>
+            <strong>Screenshots</strong>
+          </div>
+        </div>
+      </header>
+
+      <main class="layout">
+        <aside class="sidebar">
+          <section class="panel panel--sticky">
+            <h2 class="panel__title">Menu Sections</h2>
+            <nav id="category-nav" class="category-nav" aria-label="Menu categories"></nav>
+          </section>
+
+          <section class="panel">
+            <h2 class="panel__title">Extraction Notes</h2>
+            <ul id="extraction-notes" class="notes-list"></ul>
+          </section>
+        </aside>
+
+        <section class="content">
+          <div id="status-banner" class="status-banner" hidden></div>
+          <div id="menu-sections" class="menu-sections"></div>
+        </section>
+      </main>
+    </div>
+
+    <template id="category-link-template">
+      <a class="category-link" href="">
+        <span class="category-link__name"></span>
+        <span class="category-link__count"></span>
+      </a>
+    </template>
+
+    <template id="menu-section-template">
+      <section class="menu-section">
+        <div class="menu-section__header">
+          <p class="menu-section__kicker">Category</p>
+          <h2 class="menu-section__title"></h2>
+          <p class="menu-section__summary"></p>
+        </div>
+        <div class="menu-grid"></div>
+      </section>
+    </template>
+
+    <template id="menu-item-template">
+      <article class="menu-card">
+        <div class="menu-card__media">
+          <img class="menu-card__image" alt="" loading="lazy" />
+        </div>
+        <div class="menu-card__topline">
+          <h3 class="menu-card__name"></h3>
+          <span class="menu-card__price"></span>
+        </div>
+        <p class="menu-card__description"></p>
+        <div class="menu-card__tags"></div>
+      </article>
+    </template>
+
+    <script src="./script.js" type="module"></script>
+  </body>
+</html>

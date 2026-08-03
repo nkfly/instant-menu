@@ -1,0 +1,836 @@
+{
+  "restaurant": "noodle_villa_ueno",
+  "source_directory": "restaurants/noodle_villa_ueno/screenshots",
+  "crop_directory": "restaurants/noodle_villa_ueno/crops",
+  "crop_size": {
+    "width": 200,
+    "height": 200
+  },
+  "entries": [
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8277.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8277_01.jpg",
+      "item_name": "啤酒自选套餐",
+      "crop": {
+        "x": 50,
+        "y": 344,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8277.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8277_02.jpg",
+      "item_name": "油酥花生",
+      "crop": {
+        "x": 50,
+        "y": 596,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8277.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8277_03.jpg",
+      "item_name": "白卤毛豆",
+      "crop": {
+        "x": 50,
+        "y": 848,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8279.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8279_01.jpg",
+      "item_name": "干拌羊肚",
+      "crop": {
+        "x": 50,
+        "y": 216,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8279.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8279_02.jpg",
+      "item_name": "现拉手工牛肉宽面",
+      "crop": {
+        "x": 50,
+        "y": 520,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8279.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8279_03.jpg",
+      "item_name": "现拉手工牛肉面条",
+      "crop": {
+        "x": 50,
+        "y": 792,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8281.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8281_01.jpg",
+      "item_name": "原汤辣羊杂粉",
+      "crop": {
+        "x": 50,
+        "y": 338,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8281.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8281_02.jpg",
+      "item_name": "糊辣椒香嫩牛肉粉",
+      "crop": {
+        "x": 50,
+        "y": 591,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8281.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8281_03.jpg",
+      "item_name": "原汤羊大骨粉",
+      "crop": {
+        "x": 50,
+        "y": 844,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8283.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8283_01.jpg",
+      "item_name": "香辣牛肉土豆泥拌粉",
+      "crop": {
+        "x": 50,
+        "y": 235,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8283.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8283_02.jpg",
+      "item_name": "番茄牛肉土豆泥拌粉",
+      "crop": {
+        "x": 50,
+        "y": 509,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8283.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8283_03.jpg",
+      "item_name": "麻辣虎皮鸡爪",
+      "crop": {
+        "x": 50,
+        "y": 783,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8283.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8283_04.jpg",
+      "item_name": "溏心炸蛋",
+      "crop": {
+        "x": 50,
+        "y": 1057,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8285.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8285_01.jpg",
+      "item_name": "溏心炸蛋",
+      "crop": {
+        "x": 50,
+        "y": 236,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8285.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8285_02.jpg",
+      "item_name": "自制山楂乌梅水",
+      "crop": {
+        "x": 50,
+        "y": 508,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8285.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8285_03.jpg",
+      "item_name": "特惠套餐（糊辣椒香嫩牛肉粉+溏心炸蛋+健力宝）",
+      "crop": {
+        "x": 50,
+        "y": 884,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8287.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8287_01.jpg",
+      "item_name": "特惠套餐（糊辣椒香嫩牛肉粉+溏心炸蛋+健力宝）",
+      "crop": {
+        "x": 50,
+        "y": 308,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8287.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8287_02.jpg",
+      "item_name": "啤酒自选套餐",
+      "crop": {
+        "x": 50,
+        "y": 582,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8287.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8287_03.jpg",
+      "item_name": "冷吃鸡丝拌粉(鲜辣味)",
+      "crop": {
+        "x": 50,
+        "y": 958,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8291.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8291_01.jpg",
+      "item_name": "冷吃牛肉拌粉(番茄味)",
+      "crop": {
+        "x": 50,
+        "y": 216,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8291.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8291_02.jpg",
+      "item_name": "冷吃牛肉拌粉(鲜辣味)",
+      "crop": {
+        "x": 50,
+        "y": 489,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8291.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8291_03.jpg",
+      "item_name": "冷吃牛肉拌粉(麻辣味)",
+      "crop": {
+        "x": 50,
+        "y": 764,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8293.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8293_01.jpg",
+      "item_name": "清炖牛肉粉",
+      "crop": {
+        "x": 50,
+        "y": 283,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8293.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8293_02.jpg",
+      "item_name": "红烧牛肉粉",
+      "crop": {
+        "x": 50,
+        "y": 536,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8293.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8293_03.jpg",
+      "item_name": "半肉半筋粉",
+      "crop": {
+        "x": 50,
+        "y": 789,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8295.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8295_01.jpg",
+      "item_name": "红烧牛肋条粉",
+      "crop": {
+        "x": 50,
+        "y": 235,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8295.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8295_02.jpg",
+      "item_name": "番茄牛腩粉",
+      "crop": {
+        "x": 50,
+        "y": 508,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8295.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8295_03.jpg",
+      "item_name": "酸菜牛肉粉",
+      "crop": {
+        "x": 50,
+        "y": 781,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8297.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8297_01.jpg",
+      "item_name": "椒麻牛肉粉",
+      "crop": {
+        "x": 50,
+        "y": 216,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8297.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8297_02.jpg",
+      "item_name": "泡椒牛肉粉",
+      "crop": {
+        "x": 50,
+        "y": 490,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8297.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8297_03.jpg",
+      "item_name": "糊辣椒香牛肉粉",
+      "crop": {
+        "x": 50,
+        "y": 766,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8297.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8297_04.jpg",
+      "item_name": "糊辣椒香嫩牛肉粉",
+      "crop": {
+        "x": 50,
+        "y": 1040,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8299.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8299_01.jpg",
+      "item_name": "糊辣椒香嫩牛肉粉",
+      "crop": {
+        "x": 50,
+        "y": 215,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8299.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8299_02.jpg",
+      "item_name": "香辣牛肉土豆泥拌粉",
+      "crop": {
+        "x": 50,
+        "y": 491,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8299.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8299_03.jpg",
+      "item_name": "番茄牛肉土豆泥拌粉",
+      "crop": {
+        "x": 50,
+        "y": 765,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8301.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8301_01.jpg",
+      "item_name": "原汤羊肉粉",
+      "crop": {
+        "x": 50,
+        "y": 604,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8301.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8301_02.jpg",
+      "item_name": "酸菜羊杂粉",
+      "crop": {
+        "x": 50,
+        "y": 858,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8303.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8303_01.jpg",
+      "item_name": "酸菜羊杂粉",
+      "crop": {
+        "x": 50,
+        "y": 216,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8303.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8303_02.jpg",
+      "item_name": "原汤辣羊肉粉",
+      "crop": {
+        "x": 50,
+        "y": 489,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8303.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8303_03.jpg",
+      "item_name": "原汤羊杂粉",
+      "crop": {
+        "x": 50,
+        "y": 764,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8303.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8303_04.jpg",
+      "item_name": "原汤辣羊杂粉",
+      "crop": {
+        "x": 50,
+        "y": 1038,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8305.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8305_01.jpg",
+      "item_name": "原汤辣羊杂粉",
+      "crop": {
+        "x": 50,
+        "y": 216,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8305.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8305_02.jpg",
+      "item_name": "原汤羊大骨粉",
+      "crop": {
+        "x": 50,
+        "y": 490,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8305.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8305_03.jpg",
+      "item_name": "红烧小羊排粉",
+      "crop": {
+        "x": 50,
+        "y": 764,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8305.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8305_04.jpg",
+      "item_name": "酸菜羊肉粉",
+      "crop": {
+        "x": 50,
+        "y": 1038,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8307.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8307_01.jpg",
+      "item_name": "酸菜羊肉粉",
+      "crop": {
+        "x": 50,
+        "y": 216,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8307.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8307_02.jpg",
+      "item_name": "椒麻羊肉粉",
+      "crop": {
+        "x": 50,
+        "y": 490,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8307.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8307_03.jpg",
+      "item_name": "椒麻羊杂粉",
+      "crop": {
+        "x": 50,
+        "y": 766,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8309.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8309_01.jpg",
+      "item_name": "椒麻羊大骨粉",
+      "crop": {
+        "x": 50,
+        "y": 215,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8309.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8309_02.jpg",
+      "item_name": "泡椒羊肉粉",
+      "crop": {
+        "x": 50,
+        "y": 489,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8309.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8309_03.jpg",
+      "item_name": "泡椒羊杂粉",
+      "crop": {
+        "x": 50,
+        "y": 764,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8309.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8309_04.jpg",
+      "item_name": "泡椒羊大骨粉",
+      "crop": {
+        "x": 50,
+        "y": 1038,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8311.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8311_01.jpg",
+      "item_name": "泡椒羊大骨粉",
+      "crop": {
+        "x": 50,
+        "y": 214,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8311.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8311_02.jpg",
+      "item_name": "糊辣椒香羊肉粉",
+      "crop": {
+        "x": 50,
+        "y": 489,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8311.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8311_03.jpg",
+      "item_name": "糊辣椒香羊杂粉",
+      "crop": {
+        "x": 50,
+        "y": 764,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8311.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8311_04.jpg",
+      "item_name": "羊肉粉丝汤(不可续米粉)",
+      "crop": {
+        "x": 50,
+        "y": 1039,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8313.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8313_01.jpg",
+      "item_name": "羊肉粉丝汤(不可续米粉)",
+      "crop": {
+        "x": 50,
+        "y": 214,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8313.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8313_02.jpg",
+      "item_name": "羊杂粉丝汤(不可续米粉)",
+      "crop": {
+        "x": 50,
+        "y": 489,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8315.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8315_01.jpg",
+      "item_name": "素酸辣粉(不可续米粉)",
+      "crop": {
+        "x": 50,
+        "y": 286,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8315.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8315_02.jpg",
+      "item_name": "牛肉酸辣粉(不可续米粉)",
+      "crop": {
+        "x": 50,
+        "y": 560,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8317.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8317_01.jpg",
+      "item_name": "炸羊肉串（2串）",
+      "crop": {
+        "x": 50,
+        "y": 290,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8317.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8317_02.jpg",
+      "item_name": "油酥花生",
+      "crop": {
+        "x": 50,
+        "y": 564,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8317.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8317_03.jpg",
+      "item_name": "白卤毛豆",
+      "crop": {
+        "x": 50,
+        "y": 838,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8319.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8319_01.jpg",
+      "item_name": "干拌羊肚",
+      "crop": {
+        "x": 50,
+        "y": 214,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8319.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8319_02.jpg",
+      "item_name": "鹿茸菇锅盔",
+      "crop": {
+        "x": 50,
+        "y": 489,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8319.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8319_03.jpg",
+      "item_name": "白卤鸡腿",
+      "crop": {
+        "x": 50,
+        "y": 764,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8319.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8319_04.jpg",
+      "item_name": "芝麻香煎馍",
+      "crop": {
+        "x": 50,
+        "y": 1038,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8321.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8321_01.jpg",
+      "item_name": "芝麻香煎馍",
+      "crop": {
+        "x": 50,
+        "y": 214,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8321.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8321_02.jpg",
+      "item_name": "麻辣双脆",
+      "crop": {
+        "x": 50,
+        "y": 489,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8321.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8321_03.jpg",
+      "item_name": "鲜椒双脆",
+      "crop": {
+        "x": 50,
+        "y": 764,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8321.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8321_04.jpg",
+      "item_name": "椒麻脆肠",
+      "crop": {
+        "x": 50,
+        "y": 1038,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8323.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8323_01.jpg",
+      "item_name": "椒麻脆肠",
+      "crop": {
+        "x": 50,
+        "y": 214,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8323.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8323_02.jpg",
+      "item_name": "麻辣虎皮鸡爪",
+      "crop": {
+        "x": 50,
+        "y": 489,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8323.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8323_03.jpg",
+      "item_name": "渣渣牛肉",
+      "crop": {
+        "x": 50,
+        "y": 764,
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "source_image": "restaurants/noodle_villa_ueno/screenshots/IMG_8323.JPG",
+      "crop_file": "restaurants/noodle_villa_ueno/crops/IMG_8323_04.jpg",
+      "item_name": "酱肉锅盔（2个）",
+      "crop": {
+        "x": 50,
+        "y": 1038,
+        "width": 200,
+        "height": 200
+      }
+    }
+  ]
+}

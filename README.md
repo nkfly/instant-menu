@@ -61,6 +61,8 @@ Capture:
 
 AI extracts the menu into structured JSON.
 
+AI can also extract square item-photo crops from screenshots for later website and design use.
+
 Example:
 
 ```text
@@ -82,6 +84,12 @@ Each item includes:
 - Image reference
 - Options
 - Confidence score
+
+Related image artifacts can include:
+
+- Original screenshots
+- Cropped dish photos
+- Future normalized media references
 
 Human review is performed before publishing.
 
@@ -133,6 +141,8 @@ AI Vision
 Structured Menu JSON
     ↓
 Human Review
+    ↓
+Dish Photo Crops
     ↓
 Website Generator
     ↓
@@ -208,18 +218,26 @@ All from a single source of truth.
 
 The first restaurant POC is now set up in this repository.
 
+The repository structure has also been updated so restaurant data lives under `restaurants/`, and website-generation work has a dedicated `website_template/` directory.
+
 ### Restaurant
 
-- `noodle_villa_ueno`
+- `restaurants/noodle_villa_ueno`
 - Source restaurant name in the screenshots: `黔莊 - 上野`
 
 ### What Has Been Done
 
-- Created a restaurant-specific directory at `noodle_villa_ueno/`
-- Stored the screenshot set under `noodle_villa_ueno/screenshots/`
+- Created a restaurant-specific directory at `restaurants/noodle_villa_ueno/`
+- Stored the screenshot set under `restaurants/noodle_villa_ueno/screenshots/`
 - Read 23 screenshots from the restaurant's mobile ordering menu
 - Extracted a first-pass structured menu JSON
-- Saved the generated file in the repo at `noodle_villa_ueno/menu.json`
+- Saved the generated file in the repo at `restaurants/noodle_villa_ueno/menu.json`
+- Extracted 76 square dish-photo crops to `restaurants/noodle_villa_ueno/crops/`
+- Saved a crop manifest at `restaurants/noodle_villa_ueno/crops/manifest.json`
+- Created `website_template/` as the future home of the reusable menu website generator
+- Built the first static HTML website template in `website_template/`
+- Wired the template to render menu data from `restaurants/noodle_villa_ueno/menu.json`
+- Wired the template to use extracted dish-photo crops from `restaurants/noodle_villa_ueno/crops/manifest.json`
 
 ### Current Extraction Coverage
 
@@ -246,16 +264,25 @@ The current JSON includes these visible categories from the screenshots:
 ```text
 instant-menu/
 ├── README.md
-└── noodle_villa_ueno/
-    ├── menu.json
-    └── screenshots/
+├── restaurants/
+│   ├── README.md
+│   └── noodle_villa_ueno/
+│       ├── crops/
+│       │   └── manifest.json
+│       ├── menu.json
+│       └── screenshots/
+└── website_template/
+    ├── README.md
+    ├── index.html
+    ├── script.js
+    └── styles.css
 ```
 
 ## Sample Generated Menu JSON
 
 Full file:
 
-- `noodle_villa_ueno/menu.json`
+- `restaurants/noodle_villa_ueno/menu.json`
 
 Example excerpt:
 
@@ -296,10 +323,36 @@ Example excerpt:
 }
 ```
 
+## Dish Photo Crops
+
+Generated crop directory:
+
+- `restaurants/noodle_villa_ueno/crops/`
+
+Crop manifest:
+
+- `restaurants/noodle_villa_ueno/crops/manifest.json`
+
+The current crop pipeline:
+
+- Uses the original menu screenshots as input
+- Extracts square left-column dish images from visible menu cards
+- Saves reproducible crop coordinates in a manifest
+- Keeps the crop filenames ASCII-safe while storing the original item names in metadata
+- Makes the cropped photos reusable in the generated static website
+
+Current caveats:
+
+- Some crops are from repeated menu cards that appear across multiple categories
+- Some lower-screen items are only partially visible in the source screenshots
+- Placeholder icon cards are generally skipped when they do not contain real dish photos
+
 ## Next Steps
 
 - Review the extracted menu JSON against the screenshots
+- Review and deduplicate the extracted dish-photo crops
 - Normalize the schema for reusable ingestion across restaurants
+- Generalize the current website template so it can switch across restaurants without code edits
 - Add item IDs, image references, and confidence scores per item
 - Generate the first menu webpage from the structured JSON
 - Generate the first printable PDF from the same source data
