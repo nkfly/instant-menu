@@ -1,8 +1,14 @@
-# Japanese Menu Image -> English Menu Image POC
+# MenuInbound
+
+**Make your menu ready for the world.**
+
+**飲食店のインバウンド対応を、メニューから。**
 
 ## Overview
 
-This repository is now a small Python proof-of-concept for one focused task:
+MenuInbound helps small and independent restaurants in Japan become more accessible to international customers.
+
+This repository currently contains a small Python proof-of-concept for one focused task:
 
 > Take a photo or image of a Japanese restaurant menu and automatically generate an English menu image while preserving the original layout as much as possible.
 
@@ -10,7 +16,328 @@ The purpose of this POC is to validate whether a restaurant owner could realisti
 
 This is intentionally not a mobile app, not a menu editor, and not a production system.
 
-## Core Goal
+## Vision
+
+The goal is not simply to build an AI menu translator.
+
+The longer-term vision is to use multilingual menu creation as the entry point for helping restaurants improve their overall inbound readiness.
+
+> We are not just translating menus. We are lowering the barrier for local restaurants to serve customers from around the world.
+
+## Positioning
+
+MenuInbound is for small restaurants in Japan that want to become easier for international customers to understand without redesigning their operations.
+
+It should help restaurants become more accessible without requiring them to:
+
+- redesign their menus
+- hire a translation agency
+- maintain another complicated system
+- learn new software
+- spend significant time managing multilingual content
+
+The product direction is to make this process extremely simple.
+
+## Core Problem
+
+Many small restaurants in Japan still have:
+
+- Japanese-only paper menus
+- Japanese-only menu photos on Google Maps
+- no multilingual website
+- no easy-to-read digital menu for international customers
+
+International visitors may discover these restaurants through Google Maps, but still cannot easily understand:
+
+- what the restaurant serves
+- how much dishes cost
+- how to order
+
+This gap is where MenuInbound starts.
+
+## Current POC
+
+The first technical POC has already successfully demonstrated:
+
+```text
+Japanese Menu Photo
+        ↓
+OCR
+        ↓
+Menu Structure Analysis & AI correcting OCR result
+        ↓
+AI Restaurant Translation
+        ↓
+Layout / Rendering
+        ↓
+Translated English Menu Image
+```
+
+A usable English menu image can now be automatically generated from an existing Japanese menu photo.
+
+The generated image does not need to reach professional print-design quality.
+
+That is no longer the primary goal.
+
+Instead, the translated image is intended primarily for digital use, such as:
+
+- Google Maps menu photos
+- Google Business Profile
+- restaurant websites
+- social media
+- digital reference for international visitors
+
+The current POC is intentionally narrow:
+
+- take one Japanese menu image
+- generate one readable English menu image
+- generate one simple English/Japanese menu website
+- keep the workflow lightweight enough for fast iteration and restaurant feedback
+
+## Product Direction
+
+MenuInbound should generate two main outputs from the same restaurant menu data.
+
+### 1. Multilingual Menu Images
+
+Convert existing Japanese menu photos into translated versions.
+
+Initial languages:
+
+- Japanese
+- English
+
+Future languages:
+
+- Traditional Chinese
+- Simplified Chinese
+- Korean
+
+The translated images should preserve the original menu structure and approximate layout.
+
+The goal is readability and familiarity rather than print-quality graphic design.
+
+Primary use case:
+
+```text
+Before visiting the restaurant
+
+International visitor
+        ↓
+Google Maps
+        ↓
+Restaurant profile
+        ↓
+Translated menu image
+        ↓
+Understand food and prices
+        ↓
+Decide whether to visit
+```
+
+### 2. Static Multilingual Web Menu
+
+The same OCR and structured menu data should also be rendered into a clean, mobile-friendly static website.
+
+Example:
+
+```text
+menuinbound.com/hano-ya
+```
+
+The web menu should prioritize readability rather than preserving the original paper-menu layout.
+
+Example interface:
+
+```text
+Hano-ya
+
+日本語 | English | 中文 | 한국어
+
+--------------------
+
+Beer
+
+Draft Beer
+Medium                    ¥600
+Small                     ¥350
+
+
+Whisky
+
+Super Nikka
+
+Highball                  ¥480
+Single                    ¥480
+Bottle                  ¥7,000
+```
+
+Each restaurant receives:
+
+- a dedicated static menu URL
+- a QR code pointing to that URL
+- a mobile-friendly multilingual menu
+
+The restaurant can place the QR code:
+
+- on tables
+- on the existing paper menu
+- near the entrance
+- near the register
+
+Primary use case:
+
+```text
+After arriving at the restaurant
+
+Customer sits down
+        ↓
+Scans QR code
+        ↓
+Selects language
+        ↓
+Reads multilingual menu
+```
+
+This is not an ordering system.
+
+It is intentionally a simple multilingual digital menu.
+
+## MVP Business Model
+
+Do not decide yet whether menu images or QR web menus are the main product.
+
+Test both with real restaurant owners.
+
+Potential initial packages:
+
+### Menu Images
+
+Multilingual digital menu images for Google Maps and other online platforms.
+
+Example test price:
+
+**¥980**
+
+### QR Web Menu
+
+Mobile-friendly multilingual web menu with dedicated URL and QR code.
+
+Example test price:
+
+**¥1,480**
+
+### Complete Package
+
+Both multilingual menu images and QR web menu.
+
+Example test price:
+
+**¥1,980**
+
+These prices are experiments, not final pricing.
+
+The immediate goal is to measure willingness to pay.
+
+## Customer Acquisition Strategy
+
+Do not wait for restaurant owners to discover MenuInbound.
+
+Use proactive outreach.
+
+Identify small restaurants that:
+
+- have good Google Maps ratings
+- receive international visitors
+- have Japanese-only menus
+- have Japanese-only menu photos
+- do not already provide strong multilingual support
+
+Create a free sample for the restaurant.
+
+For example:
+
+```text
+Original Japanese Menu
+        ↓
+MenuInbound
+        ↓
+English Menu Sample
+        +
+QR Web Menu Demo
+```
+
+Then contact the restaurant owner with an already-working demonstration.
+
+The sales message should effectively be:
+
+> We noticed that your menu is currently mainly available in Japanese, so we created a free English sample for your restaurant. You can see the translated menu and mobile web version here.
+
+This is preferable to selling the concept before showing the result.
+
+The product itself becomes the sales material.
+
+## Future Business Opportunities
+
+MenuInbound should not become a POS or ordering-system company.
+
+However, the menu service can become a customer-acquisition entry point for broader restaurant digitalization.
+
+For example:
+
+```text
+Free / Paid Multilingual Menu
+            ↓
+Relationship with Restaurant Owner
+            ↓
+Discover additional needs
+            ↓
+Mobile Ordering
+POS
+Cashless Payment
+Wi-Fi
+Other Inbound Services
+            ↓
+Partner / Referral Revenue
+```
+
+If a restaurant already has a suitable mobile-order or POS system, no additional product should be pushed.
+
+If the restaurant needs one, MenuInbound may introduce appropriate third-party services through official referral or partner programs.
+
+The goal is to generate qualified referrals rather than becoming an installation and technical-support company.
+
+MenuInbound should remain focused on:
+
+**Restaurant inbound enablement.**
+
+## What Not to Build Yet
+
+Do not build:
+
+- iOS app
+- Android app
+- restaurant account system
+- complex authentication
+- restaurant dashboard
+- CMS
+- Canva-style menu editor
+- POS
+- ordering system
+- reservation system
+- payment system for restaurant customers
+- analytics dashboard
+- complex SaaS administration
+
+These features should only be considered after real restaurant demand has been validated.
+
+## Next Milestone
+
+The next milestone is to build the public MenuInbound website and host it on Cloudflare.
+
+Cloudflare Pages is suitable for the initial implementation because the project can deploy static HTML/assets directly and can later add Pages Functions or other Cloudflare services if dynamic functionality becomes necessary.
+
+## Current Technical Flow
 
 Input:
 
@@ -40,13 +367,13 @@ Layout English Text into Original Positions
 Render Final Image
 ```
 
-Output:
+Primary output:
 
 ```text
 menu_en.png
 ```
 
-The goal is to preserve the original photos, colors, prices, and approximate layout while replacing Japanese text with readable English.
+The immediate technical goal is to preserve the original photos, colors, prices, and approximate layout while replacing Japanese text with readable English.
 
 ## Important Technical Principle
 
@@ -68,9 +395,9 @@ This keeps text more controllable, easier to debug, and cheaper to iterate on.
 
 ## Current Repository Direction
 
-This repo has been pivoted away from the earlier menu website experiment.
+This repo has been pivoted away from the earlier menu website experiment and is now aligned with the MenuInbound POC.
 
-The current codebase now focuses on:
+The current codebase focuses on:
 
 - One menu image at a time
 - Japanese -> English only
@@ -79,6 +406,7 @@ The current codebase now focuses on:
 - Restaurant-aware translation
 - Programmatic text replacement
 - PNG output
+- Static menu website output
 - Intermediate JSON files for debugging
 
 ## Current Implementation
