@@ -8,6 +8,7 @@ from pathlib import Path
 
 from src.correction import OCRCorrectorFactory
 from src.layout import LayoutEngine
+from src.menu_site import build_menu_site
 from src.models import BBox, CorrectedOCRBlock, OCRBlock, StructuredBlock, TranslationBlock
 from src.ocr import PaddleOCRProvider
 from src.structure import HeuristicMenuStructureAnalyzer
@@ -210,12 +211,14 @@ def main() -> int:
 
     renderer = PillowMenuRenderer()
     renderer.render(input_image, layout_blocks, output_image)
+    website_dir = build_menu_site(infer_restaurant_slug(input_image), translated_blocks, output_dir)
 
     if args.debug:
         renderer.render_debug_ocr(input_image, ocr_blocks, debug_image)
         print(f"Saved {debug_image}")
 
     print(f"Saved {output_image}")
+    print(f"Saved {website_dir}")
     return 0
 
 

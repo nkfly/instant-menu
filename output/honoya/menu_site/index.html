@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Honoya Menu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <div class="brand">
+          <h1 id="restaurant-name">Loading menu...</h1>
+        </div>
+        <div class="language-switch" aria-label="Language switch">
+          <button id="lang-en" class="language-option is-active" type="button">EN</button>
+          <button id="lang-ja" class="language-option" type="button">JP</button>
+        </div>
+      </header>
+      <main class="menu-layout">
+        <aside class="sidebar">
+          <div id="section-nav" class="section-nav"></div>
+        </aside>
+        <section id="menu-sections" class="content"></section>
+      </main>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

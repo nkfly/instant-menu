@@ -93,6 +93,7 @@ The current scaffold includes:
 - Optional automatic translation only when explicitly requested
 - A simple layout engine for fitting English text inside the original text boxes
 - A Pillow-based renderer
+- A static menu website generator for restaurant-specific output directories
 - Debug artifact output for OCR inspection
 
 This keeps the system small and swappable while still matching the intended architecture.
@@ -112,6 +113,11 @@ instant-menu/
 │   ├── README.md
 │   └── honoya/
 │       ├── corrected_ocr_result.json
+│       ├── menu_site/
+│       │   ├── index.html
+│       │   ├── menu_data.json
+│       │   ├── script.js
+│       │   └── styles.css
 │       ├── menu_en.png
 │       ├── ocr_result.json
 │       ├── structure_result.json
@@ -220,6 +226,11 @@ output/
     translation_result.json
     debug_ocr.png
     menu_en.png
+    menu_site/
+      index.html
+      menu_data.json
+      script.js
+      styles.css
 ```
 
 If you keep the input image under `input/<restaurant>/`, the CLI now defaults to rendering into `output/<restaurant>/menu_en.png`.
@@ -237,6 +248,7 @@ output/honoya/structure_result.json
 output/honoya/translation_result.json
 output/honoya/debug_ocr.png
 output/honoya/menu_en.png
+output/honoya/menu_site/index.html
 ```
 
 `translation_result.json` is now an intentional handoff file, not just a debug artifact. The normal flow is:
@@ -244,6 +256,11 @@ output/honoya/menu_en.png
 1. Generate it with `TODO` placeholders.
 2. Paste it into an AI chatbot and manually fill the `translation` fields.
 3. Rerun the CLI so the renderer uses the completed JSON directly.
+
+When the translation JSON is complete, the output phase now generates both:
+
+- the English menu image
+- a static menu website directory under `output/<restaurant>/menu_site/`
 
 Example shape:
 
@@ -370,6 +387,32 @@ The renderer currently follows the simple POC-friendly replacement approach:
 5. export PNG
 
 The current objective is readability and structural correctness, not perfect typography or perfect background reconstruction.
+
+## Static Menu Website Output
+
+The output phase now also generates a static menu website under each restaurant directory.
+
+Example:
+
+```text
+output/honoya/menu_site/
+  index.html
+  menu_data.json
+  script.js
+  styles.css
+```
+
+Current website behavior:
+
+- uses the translated JSON as the data source
+- builds a left sidebar of menu sections
+- renders menu cards with title and price
+- omits image blocks when no food photo is available
+- includes a top-right English / Japanese segmented switch that shows both languages side by side
+- preserves the page layout when switching languages so scroll position stays consistent
+- is optimized for mobile-first browsing similar to QR ordering menus
+
+This website output is intentionally simple and static so it can be previewed or hosted without additional tooling.
 
 ## Debugging
 

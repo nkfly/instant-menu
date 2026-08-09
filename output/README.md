@@ -25,3 +25,7 @@ Typical files inside each restaurant directory:
 - `translation_result.json`
 - `debug_ocr.png`
 - `menu_en.png`
+- `menu_site/index.html`
+- `menu_site/menu_data.json`
+- `menu_site/script.js`
+- `menu_site/styles.css`

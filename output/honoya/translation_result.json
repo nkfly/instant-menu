@@ -1,8 +1,8 @@
 [
   {
     "id": 1,
-    "original": "はの家ドリンクメニユー",
-    "translation": "はの家ドリンクメニユー",
+    "original": "はの家ドリンクメニュー",
+    "translation": "Hano-ya Drink Menu",
     "type": "menu_item",
     "bbox": [
       292,
@@ -12,12 +12,12 @@
     ],
     "confidence": 0.9196,
     "translate": true,
-    "translation_source": "fallback"
+    "translation_source": "manual:codex"
   },
   {
     "id": 2,
     "original": "（価格はすべて税込み表示となっております）",
-    "translation": "（価格はすべて税込み表示となっております）",
+    "translation": "(All prices include tax)",
     "type": "label",
     "bbox": [
       340,
@@ -27,12 +27,12 @@
     ],
     "confidence": 0.983,
     "translate": true,
-    "translation_source": "fallback"
+    "translation_source": "manual:codex"
   },
   {
     "id": 3,
-    "original": "生ビール(スーバードライ)中ジョッキ 600 円",
-    "translation": "生ビール(スーバードライ)中ジョッキ 600 円",
+    "original": "生ビール(スーパードライ)中ジョッキ 600円",
+    "translation": "Draft Beer (Super Dry), Medium Mug, 600 yen",
     "type": "description",
     "bbox": [
       42,
@@ -42,12 +42,12 @@
     ],
     "confidence": 0.9212,
     "translate": true,
-    "translation_source": "fallback"
+    "translation_source": "manual:codex"
   },
   {
     "id": 4,
-    "original": "【ウィスキー】",
-    "translation": "【ウィスキー】 (Section)",
+    "original": "【ウイスキー】",
+    "translation": "[Whisky]",
     "type": "section_title",
     "bbox": [
       742,
@@ -57,12 +57,12 @@
     ],
     "confidence": 0.9598,
     "translate": true,
-    "translation_source": "fallback"
+    "translation_source": "manual:codex"
   },
   {
     "id": 5,
     "original": "小グラス 350円",
-    "translation": "小グラス 350円",
+    "translation": "Small Glass, 350 yen",
     "type": "menu_item",
     "bbox": [
       341,
@@ -72,12 +72,12 @@
     ],
     "confidence": 0.9363,
     "translate": true,
-    "translation_source": "fallback"
+    "translation_source": "manual:codex"
   },
   {
     "id": 6,
-    "original": "びんビール()",
-    "translation": "びんビール() (Section)",
+    "original": "びんビール",
+    "translation": "Bottled Beer",
     "type": "section_title",
     "bbox": [
       45,
@@ -87,12 +87,12 @@
     ],
     "confidence": 0.8613,
     "translate": true,
-    "translation_source": "fallback"
+    "translation_source": "manual:codex"
   },
   {
     "id": 7,
     "original": "スーパーニッカ",
-    "translation": "スーパーニッカ",
+    "translation": "Super Nikka",
     "type": "menu_item",
     "bbox": [
       609,
@@ -102,7 +102,7 @@
     ],
     "confidence": 0.973,
     "translate": true,
-    "translation_source": "fallback"
+    "translation_source": "manual:codex"
   },
   {
     "id": 8,
@@ -122,7 +122,7 @@
   {
     "id": 9,
     "original": "アサヒドライゼロ(ノンアルコール)",
-    "translation": "アサヒドライゼロ(ノンアルコール)",
+    "translation": "Asahi Dry Zero (Non-Alcoholic)",
     "type": "menu_item",
     "bbox": [
       47,
@@ -132,12 +132,12 @@
     ],
     "confidence": 0.9481,
     "translate": true,
-    "translation_source": "fallback"
+    "translation_source": "manual:codex"
   },
   {
     "id": 10,
     "original": "ハイボール",
-    "translation": "ハイボール",
+    "translation": "Highball",
     "type": "menu_item",
     "bbox": [
       634,
@@ -147,7 +147,7 @@
     ],
     "confidence": 0.9288,
     "translate": true,
-    "translation_source": "fallback"
+    "translation_source": "manual:codex"
   },
   {
     "id": 11,
@@ -182,7 +182,7 @@
   {
     "id": 13,
     "original": "ジンジャーハイボール",
-    "translation": "ジンジャーハイボール",
+    "translation": "Ginger Highball",
     "type": "menu_item",
     "bbox": [
       636,
@@ -192,12 +192,12 @@
     ],
     "confidence": 0.9843,
     "translate": true,
-    "translation_source": "fallback"
+    "translation_source": "manual:codex"
   },
   {
     "id": 14,
     "original": "ホッピーセット（白・黒）",
-    "translation": "ホッピーセット（白・黒）",
+    "translation": "Hoppy Set (White / Black)",
     "type": "menu_item",
     "bbox": [
       47,
@@ -207,7 +207,7 @@
     ],
     "confidence": 0.9518,
     "translate": true,
-    "translation_source": "fallback"
+    "translation_source": "manual:codex"
   },
   {
     "id": 15,
@@ -242,7 +242,7 @@
   {
     "id": 17,
     "original": "コークハイボール",
-    "translation": "コークハイボール",
+    "translation": "Coke Highball",
     "type": "menu_item",
     "bbox": [
       635,
@@ -252,7 +252,7 @@
     ],
     "confidence": 0.9528,
     "translate": true,
-    "translation_source": "fallback"
+    "translation_source": "manual:codex"
   },
   {
     "id": 18,
@@ -272,7 +272,7 @@
   {
     "id": 19,
     "original": "そと／400円",
-    "translation": "そと／400円",
+    "translation": "Outer / 400 yen",
     "type": "menu_item",
     "bbox": [
       142,
@@ -282,12 +282,12 @@
     ],
     "confidence": 0.9371,
     "translate": true,
-    "translation_source": "fallback"
+    "translation_source": "manual:codex"
   },
   {
     "id": 20,
     "original": "なか250円",
-    "translation": "なか250円",
+    "translation": "Inside / 250 yen",
     "type": "menu_item",
     "bbox": [
       375,
@@ -297,12 +297,12 @@
     ],
     "confidence": 0.9984,
     "translate": true,
-    "translation_source": "fallback"
+    "translation_source": "manual:codex"
   },
   {
     "id": 21,
     "original": "シングル",
-    "translation": "シングル",
+    "translation": "Single",
     "type": "menu_item",
     "bbox": [
       635,
@@ -312,12 +312,12 @@
     ],
     "confidence": 0.979,
     "translate": true,
-    "translation_source": "fallback"
+    "translation_source": "manual:codex"
   },
   {
     "id": 22,
     "original": "なかボトル(キンミヤ焼酎 300ml)",
-    "translation": "なかボトル(キンミヤ焼酎 300ml)",
+    "translation": "Refill Bottle (Kinmiya Shochu 300ml)",
     "type": "description",
     "bbox": [
       50,
@@ -327,7 +327,7 @@
     ],
     "confidence": 0.9389,
     "translate": true,
-    "translation_source": "fallback"
+    "translation_source": "manual:codex"
   },
   {
     "id": 23,
@@ -362,7 +362,7 @@
   {
     "id": 25,
     "original": "ボトル",
-    "translation": "ボトル",
+    "translation": "Bottle",
     "type": "menu_item",
     "bbox": [
       636,
@@ -372,12 +372,12 @@
     ],
     "confidence": 0.9699,
     "translate": true,
-    "translation_source": "fallback"
+    "translation_source": "manual:codex"
   },
   {
     "id": 26,
-    "original": "7000 円",
-    "translation": "7000 円",
+    "original": "7000円",
+    "translation": "7000円",
     "type": "price",
     "bbox": [
       1007,
@@ -392,7 +392,7 @@
   {
     "id": 27,
     "original": "メーカーズマーク（バーボン）",
-    "translation": "メーカーズマーク（バーボン）",
+    "translation": "Maker's Mark (Bourbon)",
     "type": "menu_item",
     "bbox": [
       613,
@@ -402,7 +402,7 @@
     ],
     "confidence": 0.9039,
     "translate": true,
-    "translation_source": "fallback"
+    "translation_source": "manual:codex"
   },
   {
     "id": 28,
@@ -422,7 +422,7 @@
   {
     "id": 29,
     "original": "ハイボール",
-    "translation": "ハイボール",
+    "translation": "Highball",
     "type": "menu_item",
     "bbox": [
       640,
@@ -432,12 +432,12 @@
     ],
     "confidence": 0.9901,
     "translate": true,
-    "translation_source": "fallback"
+    "translation_source": "manual:codex"
   },
   {
     "id": 30,
     "original": "【サワー各種】",
-    "translation": "【サワー各種】 (Section)",
+    "translation": "[Sours]",
     "type": "section_title",
     "bbox": [
       202,
@@ -447,7 +447,7 @@
     ],
     "confidence": 0.9794,
     "translate": true,
-    "translation_source": "fallback"
+    "translation_source": "manual:codex"
   },
   {
     "id": 31,
@@ -467,7 +467,7 @@
   {
     "id": 32,
     "original": "シングル",
-    "translation": "シングル",
+    "translation": "Single",
     "type": "menu_item",
     "bbox": [
       640,
@@ -477,12 +477,12 @@
     ],
     "confidence": 0.9862,
     "translate": true,
-    "translation_source": "fallback"
+    "translation_source": "manual:codex"
   },
   {
     "id": 33,
-    "original": "7800 円",
-    "translation": "7800 円",
+    "original": "7800円",
+    "translation": "7800円",
     "type": "price",
     "bbox": [
       1011,
@@ -497,7 +497,7 @@
   {
     "id": 34,
     "original": "ボトル",
-    "translation": "ボトル",
+    "translation": "Bottle",
     "type": "menu_item",
     "bbox": [
       638,
@@ -507,12 +507,12 @@
     ],
     "confidence": 0.9956,
     "translate": true,
-    "translation_source": "fallback"
+    "translation_source": "manual:codex"
   },
   {
     "id": 35,
     "original": "レモンサワー",
-    "translation": "レモンサワー",
+    "translation": "Lemon Sour",
     "type": "menu_item",
     "bbox": [
       59,
@@ -522,7 +522,7 @@
     ],
     "confidence": 0.9972,
     "translate": true,
-    "translation_source": "fallback"
+    "translation_source": "manual:codex"
   },
   {
     "id": 36,
@@ -542,7 +542,7 @@
   {
     "id": 37,
     "original": "宮城峡",
-    "translation": "宮城峡",
+    "translation": "Miyagikyo",
     "type": "menu_item",
     "bbox": [
       617,
@@ -552,7 +552,7 @@
     ],
     "confidence": 0.9678,
     "translate": true,
-    "translation_source": "fallback"
+    "translation_source": "manual:codex"
   },
   {
     "id": 38,
@@ -572,7 +572,7 @@
   {
     "id": 39,
     "original": "チューハイ",
-    "translation": "チューハイ",
+    "translation": "Chuhai",
     "type": "menu_item",
     "bbox": [
       61,
@@ -582,7 +582,7 @@
     ],
     "confidence": 0.9941,
     "translate": true,
-    "translation_source": "fallback"
+    "translation_source": "manual:codex"
   },
   {
     "id": 40,
@@ -617,7 +617,7 @@
   {
     "id": 42,
     "original": "ウーロンハイ",
-    "translation": "ウーロンハイ",
+    "translation": "Oolong High",
     "type": "menu_item",
     "bbox": [
       61,
@@ -627,12 +627,12 @@
     ],
     "confidence": 0.9943,
     "translate": true,
-    "translation_source": "fallback"
+    "translation_source": "manual:codex"
   },
   {
     "id": 43,
     "original": "ハイボール",
-    "translation": "ハイボール",
+    "translation": "Highball",
     "type": "menu_item",
     "bbox": [
       644,
@@ -642,7 +642,7 @@
     ],
     "confidence": 0.9888,
     "translate": true,
-    "translation_source": "fallback"
+    "translation_source": "manual:codex"
   },
   {
     "id": 44,
@@ -677,7 +677,7 @@
   {
     "id": 46,
     "original": "シングル",
-    "translation": "シングル",
+    "translation": "Single",
     "type": "menu_item",
     "bbox": [
       642,
@@ -687,12 +687,12 @@
     ],
     "confidence": 0.9618,
     "translate": true,
-    "translation_source": "fallback"
+    "translation_source": "manual:codex"
   },
   {
     "id": 47,
     "original": "緑茶ハイ",
-    "translation": "緑茶ハイ",
+    "translation": "Green Tea High",
     "type": "menu_item",
     "bbox": [
       64,
@@ -702,7 +702,7 @@
     ],
     "confidence": 0.9966,
     "translate": true,
-    "translation_source": "fallback"
+    "translation_source": "manual:codex"
   },
   {
     "id": 48,
@@ -722,7 +722,7 @@
   {
     "id": 49,
     "original": "竹鶴ピュアモルト",
-    "translation": "竹鶴ピュアモルト",
+    "translation": "Taketsuru Pure Malt",
     "type": "menu_item",
     "bbox": [
       619,
@@ -732,12 +732,12 @@
     ],
     "confidence": 0.9853,
     "translate": true,
-    "translation_source": "fallback"
+    "translation_source": "manual:codex"
   },
   {
     "id": 50,
     "original": "ライムサワー",
-    "translation": "ライムサワー",
+    "translation": "Lime Sour",
     "type": "menu_item",
     "bbox": [
       68,
@@ -747,7 +747,7 @@
     ],
     "confidence": 0.9992,
     "translate": true,
-    "translation_source": "fallback"
+    "translation_source": "manual:codex"
   },
   {
     "id": 51,
@@ -766,8 +766,8 @@
   },
   {
     "id": 52,
-    "original": "500 円",
-    "translation": "500 円",
+    "original": "500円",
+    "translation": "500円",
     "type": "price",
     "bbox": [
       479,
@@ -782,7 +782,7 @@
   {
     "id": 53,
     "original": "ハイボール",
-    "translation": "ハイボール",
+    "translation": "Highball",
     "type": "menu_item",
     "bbox": [
       644,
@@ -792,12 +792,12 @@
     ],
     "confidence": 0.9017,
     "translate": true,
-    "translation_source": "fallback"
+    "translation_source": "manual:codex"
   },
   {
     "id": 54,
     "original": "梅干しサワー",
-    "translation": "梅干しサワー",
+    "translation": "Umeboshi Sour",
     "type": "menu_item",
     "bbox": [
       69,
@@ -807,7 +807,7 @@
     ],
     "confidence": 0.9868,
     "translate": true,
-    "translation_source": "fallback"
+    "translation_source": "manual:codex"
   },
   {
     "id": 55,
@@ -827,7 +827,7 @@
   {
     "id": 56,
     "original": "シングル",
-    "translation": "シングル",
+    "translation": "Single",
     "type": "menu_item",
     "bbox": [
       645,
@@ -837,7 +837,7 @@
     ],
     "confidence": 0.9789,
     "translate": true,
-    "translation_source": "fallback"
+    "translation_source": "manual:codex"
   },
   {
     "id": 57,
@@ -857,7 +857,7 @@
   {
     "id": 58,
     "original": "梅酒ソーダ",
-    "translation": "梅酒ソーダ",
+    "translation": "Umeshu Soda",
     "type": "menu_item",
     "bbox": [
       72,
@@ -867,12 +867,12 @@
     ],
     "confidence": 0.9942,
     "translate": true,
-    "translation_source": "fallback"
+    "translation_source": "manual:codex"
   },
   {
     "id": 59,
     "original": "山崎",
-    "translation": "山崎",
+    "translation": "Yamazaki",
     "type": "menu_item",
     "bbox": [
       620,
@@ -882,7 +882,7 @@
     ],
     "confidence": 0.9999,
     "translate": true,
-    "translation_source": "fallback"
+    "translation_source": "manual:codex"
   },
   {
     "id": 60,
@@ -902,7 +902,7 @@
   {
     "id": 61,
     "original": "グレープフルーツサワー",
-    "translation": "グレープフルーツサワー",
+    "translation": "Grapefruit Sour",
     "type": "menu_item",
     "bbox": [
       74,
@@ -912,7 +912,7 @@
     ],
     "confidence": 0.9597,
     "translate": true,
-    "translation_source": "fallback"
+    "translation_source": "manual:codex"
   },
   {
     "id": 62,
@@ -932,7 +932,7 @@
   {
     "id": 63,
     "original": "ハイボール",
-    "translation": "ハイボール",
+    "translation": "Highball",
     "type": "menu_item",
     "bbox": [
       650,
@@ -942,7 +942,7 @@
     ],
     "confidence": 0.9765,
     "translate": true,
-    "translation_source": "fallback"
+    "translation_source": "manual:codex"
   },
   {
     "id": 64,
@@ -962,7 +962,7 @@
   {
     "id": 65,
     "original": "マンゴーサワー",
-    "translation": "マンゴーサワー",
+    "translation": "Mango Sour",
     "type": "menu_item",
     "bbox": [
       77,
@@ -972,7 +972,7 @@
     ],
     "confidence": 0.9955,
     "translate": true,
-    "translation_source": "fallback"
+    "translation_source": "manual:codex"
   },
   {
     "id": 66,
@@ -992,7 +992,7 @@
   {
     "id": 67,
     "original": "シングル",
-    "translation": "シングル",
+    "translation": "Single",
     "type": "menu_item",
     "bbox": [
       649,
@@ -1002,12 +1002,12 @@
     ],
     "confidence": 0.9886,
     "translate": true,
-    "translation_source": "fallback"
+    "translation_source": "manual:codex"
   },
   {
     "id": 68,
     "original": "【カクテル各種】",
-    "translation": "【カクテル各種】 (Section)",
+    "translation": "[Cocktails]",
     "type": "section_title",
     "bbox": [
       189,
@@ -1017,12 +1017,12 @@
     ],
     "confidence": 0.9983,
     "translate": true,
-    "translation_source": "fallback"
+    "translation_source": "manual:codex"
   },
   {
     "id": 69,
     "original": "【マッコリボトル1000ml】",
-    "translation": "【マッコリボトル1000ml】",
+    "translation": "[Makgeolli Bottle 1000ml]",
     "type": "menu_item",
     "bbox": [
       695,
@@ -1032,12 +1032,12 @@
     ],
     "confidence": 0.9872,
     "translate": true,
-    "translation_source": "fallback"
+    "translation_source": "manual:codex"
   },
   {
     "id": 70,
     "original": "カシスソーダ",
-    "translation": "カシスソーダ (Section)",
+    "translation": "Cassis Soda",
     "type": "section_title",
     "bbox": [
       79,
@@ -1047,7 +1047,7 @@
     ],
     "confidence": 0.9917,
     "translate": true,
-    "translation_source": "fallback"
+    "translation_source": "manual:codex"
   },
   {
     "id": 71,
@@ -1082,7 +1082,7 @@
   {
     "id": 73,
     "original": "二東 マッコリ",
-    "translation": "二東 マッコリ",
+    "translation": "E-Dong Makgeolli",
     "type": "menu_item",
     "bbox": [
       629,
@@ -1092,12 +1092,12 @@
     ],
     "confidence": 0.8231,
     "translate": true,
-    "translation_source": "fallback"
+    "translation_source": "manual:codex"
   },
   {
     "id": 74,
     "original": "カシスウーロン",
-    "translation": "カシスウーロン",
+    "translation": "Cassis Oolong",
     "type": "menu_item",
     "bbox": [
       81,
@@ -1107,7 +1107,7 @@
     ],
     "confidence": 0.9949,
     "translate": true,
-    "translation_source": "fallback"
+    "translation_source": "manual:codex"
   },
   {
     "id": 75,
@@ -1142,7 +1142,7 @@
   {
     "id": 77,
     "original": "微炭酸ソウルマッコリ",
-    "translation": "微炭酸ソウルマッコリ",
+    "translation": "Lightly Sparkling Seoul Makgeolli",
     "type": "menu_item",
     "bbox": [
       630,
@@ -1152,12 +1152,12 @@
     ],
     "confidence": 0.9519,
     "translate": true,
-    "translation_source": "fallback"
+    "translation_source": "manual:codex"
   },
   {
     "id": 78,
     "original": "カシスグレープフルーツ",
-    "translation": "カシスグレープフルーツ",
+    "translation": "Cassis Grapefruit",
     "type": "menu_item",
     "bbox": [
       79,
@@ -1167,7 +1167,7 @@
     ],
     "confidence": 0.9712,
     "translate": true,
-    "translation_source": "fallback"
+    "translation_source": "manual:codex"
   },
   {
     "id": 79,
@@ -1187,7 +1187,7 @@
   {
     "id": 80,
     "original": "カシスオレンジ",
-    "translation": "カシスオレンジ",
+    "translation": "Cassis Orange",
     "type": "menu_item",
     "bbox": [
       78,
@@ -1197,7 +1197,7 @@
     ],
     "confidence": 0.9911,
     "translate": true,
-    "translation_source": "fallback"
+    "translation_source": "manual:codex"
   },
   {
     "id": 81,
@@ -1217,7 +1217,7 @@
   {
     "id": 82,
     "original": "ファジーネーブル",
-    "translation": "ファジーネーブル",
+    "translation": "Fuzzy Navel",
     "type": "menu_item",
     "bbox": [
       77,
@@ -1227,7 +1227,7 @@
     ],
     "confidence": 0.9955,
     "translate": true,
-    "translation_source": "fallback"
+    "translation_source": "manual:codex"
   },
   {
     "id": 83,
@@ -1246,8 +1246,8 @@
   },
   {
     "id": 84,
-    "original": "【ンフトドリンク】",
-    "translation": "【ンフトドリンク】 (Section)",
+    "original": "【ソフトドリンク】",
+    "translation": "[Soft Drinks]",
     "type": "section_title",
     "bbox": [
       745,
@@ -1257,7 +1257,7 @@
     ],
     "confidence": 0.9374,
     "translate": true,
-    "translation_source": "fallback"
+    "translation_source": "manual:codex"
   },
   {
     "id": 85,
@@ -1276,8 +1276,8 @@
   },
   {
     "id": 86,
-    "original": "ピーチグレーブフルーツ",
-    "translation": "ピーチグレーブフルーツ",
+    "original": "ピーチグレープフルーツ",
+    "translation": "Peach Grapefruit",
     "type": "menu_item",
     "bbox": [
       77,
@@ -1287,7 +1287,7 @@
     ],
     "confidence": 0.9768,
     "translate": true,
-    "translation_source": "fallback"
+    "translation_source": "manual:codex"
   },
   {
     "id": 87,
@@ -1306,8 +1306,8 @@
   },
   {
     "id": 88,
-    "original": "ビーチウーロン",
-    "translation": "ビーチウーロン",
+    "original": "ピーチウーロン",
+    "translation": "Peach Oolong",
     "type": "menu_item",
     "bbox": [
       79,
@@ -1317,7 +1317,7 @@
     ],
     "confidence": 0.9599,
     "translate": true,
-    "translation_source": "fallback"
+    "translation_source": "manual:codex"
   },
   {
     "id": 89,
@@ -1336,8 +1336,8 @@
   },
   {
     "id": 90,
-    "original": "ウーロン茶（冷or温）",
-    "translation": "ウーロン茶（冷or温）",
+    "original": "ウーロン茶（冷 or 温）",
+    "translation": "Oolong Tea (Hot or Cold)",
     "type": "menu_item",
     "bbox": [
       635,
@@ -1347,7 +1347,7 @@
     ],
     "confidence": 0.9379,
     "translate": true,
-    "translation_source": "fallback"
+    "translation_source": "manual:codex"
   },
   {
     "id": 91,
@@ -1367,7 +1367,7 @@
   {
     "id": 92,
     "original": "オレンジジュース(100%)",
-    "translation": "オレンジジュース(100%)",
+    "translation": "Orange Juice (100%)",
     "type": "menu_item",
     "bbox": [
       634,
@@ -1377,12 +1377,12 @@
     ],
     "confidence": 0.9878,
     "translate": true,
-    "translation_source": "fallback"
+    "translation_source": "manual:codex"
   },
   {
     "id": 93,
     "original": "グレープフルーツジュース(100%)",
-    "translation": "グレープフルーツジュース(100%)",
+    "translation": "Grapefruit Juice (100%)",
     "type": "description",
     "bbox": [
       636,
@@ -1392,7 +1392,7 @@
     ],
     "confidence": 0.9714,
     "translate": true,
-    "translation_source": "fallback"
+    "translation_source": "manual:codex"
   },
   {
     "id": 94,
@@ -1427,7 +1427,7 @@
   {
     "id": 96,
     "original": "コーラ",
-    "translation": "コーラ",
+    "translation": "Cola",
     "type": "menu_item",
     "bbox": [
       636,
@@ -1437,6 +1437,6 @@
     ],
     "confidence": 0.9851,
     "translate": true,
-    "translation_source": "fallback"
+    "translation_source": "manual:codex"
   }
 ]
