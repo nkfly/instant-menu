@@ -1,0 +1,1250 @@
+[
+  {
+    "id": 1,
+    "text": "はの家ドリンクメニュー",
+    "type": "menu_item",
+    "bbox": [
+      292,
+      0,
+      564,
+      41
+    ],
+    "confidence": 0.9196,
+    "translate": true
+  },
+  {
+    "id": 2,
+    "text": "（価格はすべて税込み表示となっております）",
+    "type": "label",
+    "bbox": [
+      340,
+      48,
+      487,
+      36
+    ],
+    "confidence": 0.983,
+    "translate": true
+  },
+  {
+    "id": 3,
+    "text": "生ビール(スーパードライ)中ジョッキ 600円",
+    "type": "description",
+    "bbox": [
+      42,
+      124,
+      502,
+      38
+    ],
+    "confidence": 0.9212,
+    "translate": true
+  },
+  {
+    "id": 4,
+    "text": "【ウイスキー】",
+    "type": "section_title",
+    "bbox": [
+      742,
+      125,
+      213,
+      45
+    ],
+    "confidence": 0.9598,
+    "translate": true
+  },
+  {
+    "id": 5,
+    "text": "小グラス 350円",
+    "type": "menu_item",
+    "bbox": [
+      341,
+      167,
+      202,
+      31
+    ],
+    "confidence": 0.9363,
+    "translate": true
+  },
+  {
+    "id": 6,
+    "text": "びんビール",
+    "type": "section_title",
+    "bbox": [
+      45,
+      197,
+      208,
+      42
+    ],
+    "confidence": 0.8613,
+    "translate": true
+  },
+  {
+    "id": 7,
+    "text": "スーパーニッカ",
+    "type": "menu_item",
+    "bbox": [
+      609,
+      198,
+      135,
+      30
+    ],
+    "confidence": 0.973,
+    "translate": true
+  },
+  {
+    "id": 8,
+    "text": "800円",
+    "type": "price",
+    "bbox": [
+      468,
+      207,
+      74,
+      29
+    ],
+    "confidence": 1.0,
+    "translate": false
+  },
+  {
+    "id": 9,
+    "text": "アサヒドライゼロ(ノンアルコール)",
+    "type": "menu_item",
+    "bbox": [
+      47,
+      238,
+      365,
+      38
+    ],
+    "confidence": 0.9481,
+    "translate": true
+  },
+  {
+    "id": 10,
+    "text": "ハイボール",
+    "type": "menu_item",
+    "bbox": [
+      634,
+      239,
+      118,
+      28
+    ],
+    "confidence": 0.9288,
+    "translate": true
+  },
+  {
+    "id": 11,
+    "text": "480円",
+    "type": "price",
+    "bbox": [
+      1016,
+      241,
+      80,
+      29
+    ],
+    "confidence": 1.0,
+    "translate": false
+  },
+  {
+    "id": 12,
+    "text": "500円",
+    "type": "price",
+    "bbox": [
+      463,
+      245,
+      81,
+      29
+    ],
+    "confidence": 1.0,
+    "translate": false
+  },
+  {
+    "id": 13,
+    "text": "ジンジャーハイボール",
+    "type": "menu_item",
+    "bbox": [
+      636,
+      276,
+      236,
+      30
+    ],
+    "confidence": 0.9843,
+    "translate": true
+  },
+  {
+    "id": 14,
+    "text": "ホッピーセット（白・黒）",
+    "type": "menu_item",
+    "bbox": [
+      47,
+      277,
+      261,
+      39
+    ],
+    "confidence": 0.9518,
+    "translate": true
+  },
+  {
+    "id": 15,
+    "text": "750円",
+    "type": "price",
+    "bbox": [
+      1016,
+      277,
+      81,
+      32
+    ],
+    "confidence": 1.0,
+    "translate": false
+  },
+  {
+    "id": 16,
+    "text": "600円",
+    "type": "price",
+    "bbox": [
+      464,
+      283,
+      81,
+      29
+    ],
+    "confidence": 0.9105,
+    "translate": false
+  },
+  {
+    "id": 17,
+    "text": "コークハイボール",
+    "type": "menu_item",
+    "bbox": [
+      635,
+      314,
+      184,
+      27
+    ],
+    "confidence": 0.9528,
+    "translate": true
+  },
+  {
+    "id": 18,
+    "text": "750円",
+    "type": "price",
+    "bbox": [
+      1017,
+      317,
+      80,
+      28
+    ],
+    "confidence": 1.0,
+    "translate": false
+  },
+  {
+    "id": 19,
+    "text": "そと／400円",
+    "type": "menu_item",
+    "bbox": [
+      142,
+      321,
+      158,
+      31
+    ],
+    "confidence": 0.9371,
+    "translate": true
+  },
+  {
+    "id": 20,
+    "text": "なか250円",
+    "type": "menu_item",
+    "bbox": [
+      375,
+      321,
+      170,
+      28
+    ],
+    "confidence": 0.9984,
+    "translate": true
+  },
+  {
+    "id": 21,
+    "text": "シングル",
+    "type": "menu_item",
+    "bbox": [
+      635,
+      353,
+      92,
+      27
+    ],
+    "confidence": 0.979,
+    "translate": true
+  },
+  {
+    "id": 22,
+    "text": "なかボトル(キンミヤ焼酎 300ml)",
+    "type": "description",
+    "bbox": [
+      50,
+      354,
+      367,
+      35
+    ],
+    "confidence": 0.9389,
+    "translate": true
+  },
+  {
+    "id": 23,
+    "text": "480円",
+    "type": "price",
+    "bbox": [
+      1018,
+      354,
+      80,
+      28
+    ],
+    "confidence": 1.0,
+    "translate": false
+  },
+  {
+    "id": 24,
+    "text": "800円",
+    "type": "price",
+    "bbox": [
+      466,
+      359,
+      81,
+      28
+    ],
+    "confidence": 1.0,
+    "translate": false
+  },
+  {
+    "id": 25,
+    "text": "ボトル",
+    "type": "menu_item",
+    "bbox": [
+      636,
+      390,
+      66,
+      30
+    ],
+    "confidence": 0.9699,
+    "translate": true
+  },
+  {
+    "id": 26,
+    "text": "7000円",
+    "type": "price",
+    "bbox": [
+      1007,
+      390,
+      92,
+      29
+    ],
+    "confidence": 0.9201,
+    "translate": false
+  },
+  {
+    "id": 27,
+    "text": "メーカーズマーク（バーボン）",
+    "type": "menu_item",
+    "bbox": [
+      613,
+      426,
+      265,
+      33
+    ],
+    "confidence": 0.9039,
+    "translate": true
+  },
+  {
+    "id": 28,
+    "text": "580円",
+    "type": "price",
+    "bbox": [
+      1021,
+      465,
+      80,
+      29
+    ],
+    "confidence": 0.9999,
+    "translate": false
+  },
+  {
+    "id": 29,
+    "text": "ハイボール",
+    "type": "menu_item",
+    "bbox": [
+      640,
+      468,
+      124,
+      28
+    ],
+    "confidence": 0.9901,
+    "translate": true
+  },
+  {
+    "id": 30,
+    "text": "【サワー各種】",
+    "type": "section_title",
+    "bbox": [
+      202,
+      472,
+      205,
+      41
+    ],
+    "confidence": 0.9794,
+    "translate": true
+  },
+  {
+    "id": 31,
+    "text": "580円",
+    "type": "price",
+    "bbox": [
+      1022,
+      503,
+      79,
+      28
+    ],
+    "confidence": 1.0,
+    "translate": false
+  },
+  {
+    "id": 32,
+    "text": "シングル",
+    "type": "menu_item",
+    "bbox": [
+      640,
+      507,
+      98,
+      28
+    ],
+    "confidence": 0.9862,
+    "translate": true
+  },
+  {
+    "id": 33,
+    "text": "7800円",
+    "type": "price",
+    "bbox": [
+      1011,
+      540,
+      91,
+      29
+    ],
+    "confidence": 0.9278,
+    "translate": false
+  },
+  {
+    "id": 34,
+    "text": "ボトル",
+    "type": "menu_item",
+    "bbox": [
+      638,
+      545,
+      67,
+      29
+    ],
+    "confidence": 0.9956,
+    "translate": true
+  },
+  {
+    "id": 35,
+    "text": "レモンサワー",
+    "type": "menu_item",
+    "bbox": [
+      59,
+      546,
+      147,
+      31
+    ],
+    "confidence": 0.9972,
+    "translate": true
+  },
+  {
+    "id": 36,
+    "text": "450円",
+    "type": "price",
+    "bbox": [
+      472,
+      546,
+      81,
+      29
+    ],
+    "confidence": 1.0,
+    "translate": false
+  },
+  {
+    "id": 37,
+    "text": "宮城峡",
+    "type": "menu_item",
+    "bbox": [
+      617,
+      583,
+      82,
+      32
+    ],
+    "confidence": 0.9678,
+    "translate": true
+  },
+  {
+    "id": 38,
+    "text": "350円",
+    "type": "price",
+    "bbox": [
+      473,
+      584,
+      80,
+      28
+    ],
+    "confidence": 1.0,
+    "translate": false
+  },
+  {
+    "id": 39,
+    "text": "チューハイ",
+    "type": "menu_item",
+    "bbox": [
+      61,
+      587,
+      120,
+      28
+    ],
+    "confidence": 0.9941,
+    "translate": true
+  },
+  {
+    "id": 40,
+    "text": "1000円",
+    "type": "price",
+    "bbox": [
+      1014,
+      615,
+      89,
+      29
+    ],
+    "confidence": 1.0,
+    "translate": false
+  },
+  {
+    "id": 41,
+    "text": "400円",
+    "type": "price",
+    "bbox": [
+      473,
+      620,
+      80,
+      29
+    ],
+    "confidence": 1.0,
+    "translate": false
+  },
+  {
+    "id": 42,
+    "text": "ウーロンハイ",
+    "type": "menu_item",
+    "bbox": [
+      61,
+      623,
+      144,
+      31
+    ],
+    "confidence": 0.9943,
+    "translate": true
+  },
+  {
+    "id": 43,
+    "text": "ハイボール",
+    "type": "menu_item",
+    "bbox": [
+      644,
+      624,
+      120,
+      25
+    ],
+    "confidence": 0.9888,
+    "translate": true
+  },
+  {
+    "id": 44,
+    "text": "1000円",
+    "type": "price",
+    "bbox": [
+      1013,
+      653,
+      91,
+      27
+    ],
+    "confidence": 1.0,
+    "translate": false
+  },
+  {
+    "id": 45,
+    "text": "450円",
+    "type": "price",
+    "bbox": [
+      473,
+      658,
+      80,
+      28
+    ],
+    "confidence": 1.0,
+    "translate": false
+  },
+  {
+    "id": 46,
+    "text": "シングル",
+    "type": "menu_item",
+    "bbox": [
+      642,
+      658,
+      97,
+      28
+    ],
+    "confidence": 0.9618,
+    "translate": true
+  },
+  {
+    "id": 47,
+    "text": "緑茶ハイ",
+    "type": "menu_item",
+    "bbox": [
+      64,
+      661,
+      102,
+      32
+    ],
+    "confidence": 0.9966,
+    "translate": true
+  },
+  {
+    "id": 48,
+    "text": "400円",
+    "type": "price",
+    "bbox": [
+      475,
+      693,
+      79,
+      29
+    ],
+    "confidence": 1.0,
+    "translate": false
+  },
+  {
+    "id": 49,
+    "text": "竹鶴ピュアモルト",
+    "type": "menu_item",
+    "bbox": [
+      619,
+      695,
+      168,
+      28
+    ],
+    "confidence": 0.9853,
+    "translate": true
+  },
+  {
+    "id": 50,
+    "text": "ライムサワー",
+    "type": "menu_item",
+    "bbox": [
+      68,
+      701,
+      144,
+      28
+    ],
+    "confidence": 0.9992,
+    "translate": true
+  },
+  {
+    "id": 51,
+    "text": "1200円",
+    "type": "price",
+    "bbox": [
+      1013,
+      726,
+      92,
+      29
+    ],
+    "confidence": 1.0,
+    "translate": false
+  },
+  {
+    "id": 52,
+    "text": "500円",
+    "type": "price",
+    "bbox": [
+      479,
+      732,
+      76,
+      29
+    ],
+    "confidence": 0.9266,
+    "translate": false
+  },
+  {
+    "id": 53,
+    "text": "ハイボール",
+    "type": "menu_item",
+    "bbox": [
+      644,
+      732,
+      118,
+      28
+    ],
+    "confidence": 0.9017,
+    "translate": true
+  },
+  {
+    "id": 54,
+    "text": "梅干しサワー",
+    "type": "menu_item",
+    "bbox": [
+      69,
+      737,
+      147,
+      31
+    ],
+    "confidence": 0.9868,
+    "translate": true
+  },
+  {
+    "id": 55,
+    "text": "1200円",
+    "type": "price",
+    "bbox": [
+      1014,
+      763,
+      91,
+      29
+    ],
+    "confidence": 1.0,
+    "translate": false
+  },
+  {
+    "id": 56,
+    "text": "シングル",
+    "type": "menu_item",
+    "bbox": [
+      645,
+      768,
+      94,
+      28
+    ],
+    "confidence": 0.9789,
+    "translate": true
+  },
+  {
+    "id": 57,
+    "text": "450円",
+    "type": "price",
+    "bbox": [
+      476,
+      769,
+      80,
+      28
+    ],
+    "confidence": 1.0,
+    "translate": false
+  },
+  {
+    "id": 58,
+    "text": "梅酒ソーダ",
+    "type": "menu_item",
+    "bbox": [
+      72,
+      773,
+      122,
+      31
+    ],
+    "confidence": 0.9942,
+    "translate": true
+  },
+  {
+    "id": 59,
+    "text": "山崎",
+    "type": "menu_item",
+    "bbox": [
+      620,
+      804,
+      58,
+      30
+    ],
+    "confidence": 0.9999,
+    "translate": true
+  },
+  {
+    "id": 60,
+    "text": "500円",
+    "type": "price",
+    "bbox": [
+      477,
+      805,
+      80,
+      29
+    ],
+    "confidence": 1.0,
+    "translate": false
+  },
+  {
+    "id": 61,
+    "text": "グレープフルーツサワー",
+    "type": "menu_item",
+    "bbox": [
+      74,
+      807,
+      264,
+      33
+    ],
+    "confidence": 0.9597,
+    "translate": true
+  },
+  {
+    "id": 62,
+    "text": "1300円",
+    "type": "price",
+    "bbox": [
+      1020,
+      836,
+      88,
+      28
+    ],
+    "confidence": 1.0,
+    "translate": false
+  },
+  {
+    "id": 63,
+    "text": "ハイボール",
+    "type": "menu_item",
+    "bbox": [
+      650,
+      841,
+      122,
+      28
+    ],
+    "confidence": 0.9765,
+    "translate": true
+  },
+  {
+    "id": 64,
+    "text": "500円",
+    "type": "price",
+    "bbox": [
+      478,
+      843,
+      80,
+      29
+    ],
+    "confidence": 0.9999,
+    "translate": false
+  },
+  {
+    "id": 65,
+    "text": "マンゴーサワー",
+    "type": "menu_item",
+    "bbox": [
+      77,
+      846,
+      164,
+      28
+    ],
+    "confidence": 0.9955,
+    "translate": true
+  },
+  {
+    "id": 66,
+    "text": "1300円",
+    "type": "price",
+    "bbox": [
+      1022,
+      873,
+      88,
+      29
+    ],
+    "confidence": 1.0,
+    "translate": false
+  },
+  {
+    "id": 67,
+    "text": "シングル",
+    "type": "menu_item",
+    "bbox": [
+      649,
+      878,
+      97,
+      29
+    ],
+    "confidence": 0.9886,
+    "translate": true
+  },
+  {
+    "id": 68,
+    "text": "【カクテル各種】",
+    "type": "section_title",
+    "bbox": [
+      189,
+      955,
+      245,
+      41
+    ],
+    "confidence": 0.9983,
+    "translate": true
+  },
+  {
+    "id": 69,
+    "text": "【マッコリボトル1000ml】",
+    "type": "menu_item",
+    "bbox": [
+      695,
+      983,
+      389,
+      47
+    ],
+    "confidence": 0.9872,
+    "translate": true
+  },
+  {
+    "id": 70,
+    "text": "カシスソーダ",
+    "type": "section_title",
+    "bbox": [
+      79,
+      1036,
+      137,
+      37
+    ],
+    "confidence": 0.9917,
+    "translate": true
+  },
+  {
+    "id": 71,
+    "text": "450円",
+    "type": "price",
+    "bbox": [
+      482,
+      1040,
+      82,
+      32
+    ],
+    "confidence": 1.0,
+    "translate": false
+  },
+  {
+    "id": 72,
+    "text": "1600円",
+    "type": "price",
+    "bbox": [
+      1033,
+      1069,
+      93,
+      31
+    ],
+    "confidence": 1.0,
+    "translate": false
+  },
+  {
+    "id": 73,
+    "text": "二東 マッコリ",
+    "type": "menu_item",
+    "bbox": [
+      629,
+      1073,
+      172,
+      36
+    ],
+    "confidence": 0.8231,
+    "translate": true
+  },
+  {
+    "id": 74,
+    "text": "カシスウーロン",
+    "type": "menu_item",
+    "bbox": [
+      81,
+      1077,
+      160,
+      33
+    ],
+    "confidence": 0.9949,
+    "translate": true
+  },
+  {
+    "id": 75,
+    "text": "500円",
+    "type": "price",
+    "bbox": [
+      484,
+      1080,
+      80,
+      28
+    ],
+    "confidence": 1.0,
+    "translate": false
+  },
+  {
+    "id": 76,
+    "text": "1800円",
+    "type": "price",
+    "bbox": [
+      1034,
+      1107,
+      94,
+      32
+    ],
+    "confidence": 1.0,
+    "translate": false
+  },
+  {
+    "id": 77,
+    "text": "微炭酸ソウルマッコリ",
+    "type": "menu_item",
+    "bbox": [
+      630,
+      1111,
+      244,
+      34
+    ],
+    "confidence": 0.9519,
+    "translate": true
+  },
+  {
+    "id": 78,
+    "text": "カシスグレープフルーツ",
+    "type": "menu_item",
+    "bbox": [
+      79,
+      1116,
+      254,
+      31
+    ],
+    "confidence": 0.9712,
+    "translate": true
+  },
+  {
+    "id": 79,
+    "text": "550円",
+    "type": "price",
+    "bbox": [
+      484,
+      1116,
+      80,
+      29
+    ],
+    "confidence": 1.0,
+    "translate": false
+  },
+  {
+    "id": 80,
+    "text": "カシスオレンジ",
+    "type": "menu_item",
+    "bbox": [
+      78,
+      1155,
+      162,
+      34
+    ],
+    "confidence": 0.9911,
+    "translate": true
+  },
+  {
+    "id": 81,
+    "text": "550円",
+    "type": "price",
+    "bbox": [
+      484,
+      1156,
+      80,
+      29
+    ],
+    "confidence": 1.0,
+    "translate": false
+  },
+  {
+    "id": 82,
+    "text": "ファジーネーブル",
+    "type": "menu_item",
+    "bbox": [
+      77,
+      1194,
+      191,
+      36
+    ],
+    "confidence": 0.9955,
+    "translate": true
+  },
+  {
+    "id": 83,
+    "text": "550円",
+    "type": "price",
+    "bbox": [
+      485,
+      1195,
+      80,
+      29
+    ],
+    "confidence": 0.9999,
+    "translate": false
+  },
+  {
+    "id": 84,
+    "text": "【ソフトドリンク】",
+    "type": "section_title",
+    "bbox": [
+      745,
+      1222,
+      279,
+      46
+    ],
+    "confidence": 0.9374,
+    "translate": true
+  },
+  {
+    "id": 85,
+    "text": "550円",
+    "type": "price",
+    "bbox": [
+      485,
+      1232,
+      82,
+      31
+    ],
+    "confidence": 0.9999,
+    "translate": false
+  },
+  {
+    "id": 86,
+    "text": "ピーチグレープフルーツ",
+    "type": "menu_item",
+    "bbox": [
+      77,
+      1234,
+      267,
+      33
+    ],
+    "confidence": 0.9768,
+    "translate": true
+  },
+  {
+    "id": 87,
+    "text": "500円",
+    "type": "price",
+    "bbox": [
+      486,
+      1272,
+      81,
+      32
+    ],
+    "confidence": 1.0,
+    "translate": false
+  },
+  {
+    "id": 88,
+    "text": "ピーチウーロン",
+    "type": "menu_item",
+    "bbox": [
+      79,
+      1275,
+      167,
+      34
+    ],
+    "confidence": 0.9599,
+    "translate": true
+  },
+  {
+    "id": 89,
+    "text": "300円",
+    "type": "price",
+    "bbox": [
+      1060,
+      1297,
+      78,
+      29
+    ],
+    "confidence": 1.0,
+    "translate": false
+  },
+  {
+    "id": 90,
+    "text": "ウーロン茶（冷 or 温）",
+    "type": "menu_item",
+    "bbox": [
+      635,
+      1298,
+      245,
+      33
+    ],
+    "confidence": 0.9379,
+    "translate": true
+  },
+  {
+    "id": 91,
+    "text": "400円",
+    "type": "price",
+    "bbox": [
+      1057,
+      1336,
+      83,
+      29
+    ],
+    "confidence": 1.0,
+    "translate": false
+  },
+  {
+    "id": 92,
+    "text": "オレンジジュース(100%)",
+    "type": "menu_item",
+    "bbox": [
+      634,
+      1337,
+      270,
+      34
+    ],
+    "confidence": 0.9878,
+    "translate": true
+  },
+  {
+    "id": 93,
+    "text": "グレープフルーツジュース(100%)",
+    "type": "description",
+    "bbox": [
+      636,
+      1371,
+      373,
+      41
+    ],
+    "confidence": 0.9714,
+    "translate": true
+  },
+  {
+    "id": 94,
+    "text": "400円",
+    "type": "price",
+    "bbox": [
+      1057,
+      1374,
+      86,
+      31
+    ],
+    "confidence": 1.0,
+    "translate": false
+  },
+  {
+    "id": 95,
+    "text": "350円",
+    "type": "price",
+    "bbox": [
+      1058,
+      1414,
+      87,
+      32
+    ],
+    "confidence": 1.0,
+    "translate": false
+  },
+  {
+    "id": 96,
+    "text": "コーラ",
+    "type": "menu_item",
+    "bbox": [
+      636,
+      1420,
+      79,
+      34
+    ],
+    "confidence": 0.9851,
+    "translate": true
+  }
+]

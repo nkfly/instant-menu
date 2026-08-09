@@ -1,0 +1,1346 @@
+[
+  {
+    "id": 1,
+    "original_text": "はの家ドリンクメニユー",
+    "corrected_text": "はの家ドリンクメニュー",
+    "bbox": [
+      292,
+      0,
+      564,
+      41
+    ],
+    "confidence": 0.9196,
+    "correction_source": "heuristic",
+    "changed": true
+  },
+  {
+    "id": 2,
+    "original_text": "（価格はすべて税込み表示となっております）",
+    "corrected_text": "（価格はすべて税込み表示となっております）",
+    "bbox": [
+      340,
+      48,
+      487,
+      36
+    ],
+    "confidence": 0.983,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 3,
+    "original_text": "生ビール(スーバードライ)中ジョッキ 600 円",
+    "corrected_text": "生ビール(スーパードライ)中ジョッキ 600円",
+    "bbox": [
+      42,
+      124,
+      502,
+      38
+    ],
+    "confidence": 0.9212,
+    "correction_source": "heuristic",
+    "changed": true
+  },
+  {
+    "id": 4,
+    "original_text": "【ウィスキー】",
+    "corrected_text": "【ウイスキー】",
+    "bbox": [
+      742,
+      125,
+      213,
+      45
+    ],
+    "confidence": 0.9598,
+    "correction_source": "heuristic",
+    "changed": true
+  },
+  {
+    "id": 5,
+    "original_text": "小グラス 350円",
+    "corrected_text": "小グラス 350円",
+    "bbox": [
+      341,
+      167,
+      202,
+      31
+    ],
+    "confidence": 0.9363,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 6,
+    "original_text": "びんビール()",
+    "corrected_text": "びんビール",
+    "bbox": [
+      45,
+      197,
+      208,
+      42
+    ],
+    "confidence": 0.8613,
+    "correction_source": "heuristic",
+    "changed": true
+  },
+  {
+    "id": 7,
+    "original_text": "スーパーニッカ",
+    "corrected_text": "スーパーニッカ",
+    "bbox": [
+      609,
+      198,
+      135,
+      30
+    ],
+    "confidence": 0.973,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 8,
+    "original_text": "800円",
+    "corrected_text": "800円",
+    "bbox": [
+      468,
+      207,
+      74,
+      29
+    ],
+    "confidence": 1.0,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 9,
+    "original_text": "アサヒドライゼロ(ノンアルコール)",
+    "corrected_text": "アサヒドライゼロ(ノンアルコール)",
+    "bbox": [
+      47,
+      238,
+      365,
+      38
+    ],
+    "confidence": 0.9481,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 10,
+    "original_text": "ハイボール",
+    "corrected_text": "ハイボール",
+    "bbox": [
+      634,
+      239,
+      118,
+      28
+    ],
+    "confidence": 0.9288,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 11,
+    "original_text": "480円",
+    "corrected_text": "480円",
+    "bbox": [
+      1016,
+      241,
+      80,
+      29
+    ],
+    "confidence": 1.0,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 12,
+    "original_text": "500円",
+    "corrected_text": "500円",
+    "bbox": [
+      463,
+      245,
+      81,
+      29
+    ],
+    "confidence": 1.0,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 13,
+    "original_text": "ジンジャーハイボール",
+    "corrected_text": "ジンジャーハイボール",
+    "bbox": [
+      636,
+      276,
+      236,
+      30
+    ],
+    "confidence": 0.9843,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 14,
+    "original_text": "ホッピーセット（白・黒）",
+    "corrected_text": "ホッピーセット（白・黒）",
+    "bbox": [
+      47,
+      277,
+      261,
+      39
+    ],
+    "confidence": 0.9518,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 15,
+    "original_text": "750円",
+    "corrected_text": "750円",
+    "bbox": [
+      1016,
+      277,
+      81,
+      32
+    ],
+    "confidence": 1.0,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 16,
+    "original_text": "600円",
+    "corrected_text": "600円",
+    "bbox": [
+      464,
+      283,
+      81,
+      29
+    ],
+    "confidence": 0.9105,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 17,
+    "original_text": "コークハイボール",
+    "corrected_text": "コークハイボール",
+    "bbox": [
+      635,
+      314,
+      184,
+      27
+    ],
+    "confidence": 0.9528,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 18,
+    "original_text": "750円",
+    "corrected_text": "750円",
+    "bbox": [
+      1017,
+      317,
+      80,
+      28
+    ],
+    "confidence": 1.0,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 19,
+    "original_text": "そと／400円",
+    "corrected_text": "そと／400円",
+    "bbox": [
+      142,
+      321,
+      158,
+      31
+    ],
+    "confidence": 0.9371,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 20,
+    "original_text": "なか250円",
+    "corrected_text": "なか250円",
+    "bbox": [
+      375,
+      321,
+      170,
+      28
+    ],
+    "confidence": 0.9984,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 21,
+    "original_text": "シングル",
+    "corrected_text": "シングル",
+    "bbox": [
+      635,
+      353,
+      92,
+      27
+    ],
+    "confidence": 0.979,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 22,
+    "original_text": "なかボトル(キンミヤ焼酎 300ml)",
+    "corrected_text": "なかボトル(キンミヤ焼酎 300ml)",
+    "bbox": [
+      50,
+      354,
+      367,
+      35
+    ],
+    "confidence": 0.9389,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 23,
+    "original_text": "480円",
+    "corrected_text": "480円",
+    "bbox": [
+      1018,
+      354,
+      80,
+      28
+    ],
+    "confidence": 1.0,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 24,
+    "original_text": "800円",
+    "corrected_text": "800円",
+    "bbox": [
+      466,
+      359,
+      81,
+      28
+    ],
+    "confidence": 1.0,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 25,
+    "original_text": "ボトル",
+    "corrected_text": "ボトル",
+    "bbox": [
+      636,
+      390,
+      66,
+      30
+    ],
+    "confidence": 0.9699,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 26,
+    "original_text": "7000 円",
+    "corrected_text": "7000円",
+    "bbox": [
+      1007,
+      390,
+      92,
+      29
+    ],
+    "confidence": 0.9201,
+    "correction_source": "heuristic",
+    "changed": true
+  },
+  {
+    "id": 27,
+    "original_text": "メーカーズマーク（バーボン）",
+    "corrected_text": "メーカーズマーク（バーボン）",
+    "bbox": [
+      613,
+      426,
+      265,
+      33
+    ],
+    "confidence": 0.9039,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 28,
+    "original_text": "580円",
+    "corrected_text": "580円",
+    "bbox": [
+      1021,
+      465,
+      80,
+      29
+    ],
+    "confidence": 0.9999,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 29,
+    "original_text": "ハイボール",
+    "corrected_text": "ハイボール",
+    "bbox": [
+      640,
+      468,
+      124,
+      28
+    ],
+    "confidence": 0.9901,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 30,
+    "original_text": "【サワー各種】",
+    "corrected_text": "【サワー各種】",
+    "bbox": [
+      202,
+      472,
+      205,
+      41
+    ],
+    "confidence": 0.9794,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 31,
+    "original_text": "580円",
+    "corrected_text": "580円",
+    "bbox": [
+      1022,
+      503,
+      79,
+      28
+    ],
+    "confidence": 1.0,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 32,
+    "original_text": "シングル",
+    "corrected_text": "シングル",
+    "bbox": [
+      640,
+      507,
+      98,
+      28
+    ],
+    "confidence": 0.9862,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 33,
+    "original_text": "7800 円",
+    "corrected_text": "7800円",
+    "bbox": [
+      1011,
+      540,
+      91,
+      29
+    ],
+    "confidence": 0.9278,
+    "correction_source": "heuristic",
+    "changed": true
+  },
+  {
+    "id": 34,
+    "original_text": "ボトル",
+    "corrected_text": "ボトル",
+    "bbox": [
+      638,
+      545,
+      67,
+      29
+    ],
+    "confidence": 0.9956,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 35,
+    "original_text": "レモンサワー",
+    "corrected_text": "レモンサワー",
+    "bbox": [
+      59,
+      546,
+      147,
+      31
+    ],
+    "confidence": 0.9972,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 36,
+    "original_text": "450円",
+    "corrected_text": "450円",
+    "bbox": [
+      472,
+      546,
+      81,
+      29
+    ],
+    "confidence": 1.0,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 37,
+    "original_text": "宮城峡",
+    "corrected_text": "宮城峡",
+    "bbox": [
+      617,
+      583,
+      82,
+      32
+    ],
+    "confidence": 0.9678,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 38,
+    "original_text": "350円",
+    "corrected_text": "350円",
+    "bbox": [
+      473,
+      584,
+      80,
+      28
+    ],
+    "confidence": 1.0,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 39,
+    "original_text": "チューハイ",
+    "corrected_text": "チューハイ",
+    "bbox": [
+      61,
+      587,
+      120,
+      28
+    ],
+    "confidence": 0.9941,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 40,
+    "original_text": "1000円",
+    "corrected_text": "1000円",
+    "bbox": [
+      1014,
+      615,
+      89,
+      29
+    ],
+    "confidence": 1.0,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 41,
+    "original_text": "400円",
+    "corrected_text": "400円",
+    "bbox": [
+      473,
+      620,
+      80,
+      29
+    ],
+    "confidence": 1.0,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 42,
+    "original_text": "ウーロンハイ",
+    "corrected_text": "ウーロンハイ",
+    "bbox": [
+      61,
+      623,
+      144,
+      31
+    ],
+    "confidence": 0.9943,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 43,
+    "original_text": "ハイボール",
+    "corrected_text": "ハイボール",
+    "bbox": [
+      644,
+      624,
+      120,
+      25
+    ],
+    "confidence": 0.9888,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 44,
+    "original_text": "1000円",
+    "corrected_text": "1000円",
+    "bbox": [
+      1013,
+      653,
+      91,
+      27
+    ],
+    "confidence": 1.0,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 45,
+    "original_text": "450円",
+    "corrected_text": "450円",
+    "bbox": [
+      473,
+      658,
+      80,
+      28
+    ],
+    "confidence": 1.0,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 46,
+    "original_text": "シングル",
+    "corrected_text": "シングル",
+    "bbox": [
+      642,
+      658,
+      97,
+      28
+    ],
+    "confidence": 0.9618,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 47,
+    "original_text": "緑茶ハイ",
+    "corrected_text": "緑茶ハイ",
+    "bbox": [
+      64,
+      661,
+      102,
+      32
+    ],
+    "confidence": 0.9966,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 48,
+    "original_text": "400円",
+    "corrected_text": "400円",
+    "bbox": [
+      475,
+      693,
+      79,
+      29
+    ],
+    "confidence": 1.0,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 49,
+    "original_text": "竹鶴ピュアモルト",
+    "corrected_text": "竹鶴ピュアモルト",
+    "bbox": [
+      619,
+      695,
+      168,
+      28
+    ],
+    "confidence": 0.9853,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 50,
+    "original_text": "ライムサワー",
+    "corrected_text": "ライムサワー",
+    "bbox": [
+      68,
+      701,
+      144,
+      28
+    ],
+    "confidence": 0.9992,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 51,
+    "original_text": "1200円",
+    "corrected_text": "1200円",
+    "bbox": [
+      1013,
+      726,
+      92,
+      29
+    ],
+    "confidence": 1.0,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 52,
+    "original_text": "500 円",
+    "corrected_text": "500円",
+    "bbox": [
+      479,
+      732,
+      76,
+      29
+    ],
+    "confidence": 0.9266,
+    "correction_source": "heuristic",
+    "changed": true
+  },
+  {
+    "id": 53,
+    "original_text": "ハイボール",
+    "corrected_text": "ハイボール",
+    "bbox": [
+      644,
+      732,
+      118,
+      28
+    ],
+    "confidence": 0.9017,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 54,
+    "original_text": "梅干しサワー",
+    "corrected_text": "梅干しサワー",
+    "bbox": [
+      69,
+      737,
+      147,
+      31
+    ],
+    "confidence": 0.9868,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 55,
+    "original_text": "1200円",
+    "corrected_text": "1200円",
+    "bbox": [
+      1014,
+      763,
+      91,
+      29
+    ],
+    "confidence": 1.0,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 56,
+    "original_text": "シングル",
+    "corrected_text": "シングル",
+    "bbox": [
+      645,
+      768,
+      94,
+      28
+    ],
+    "confidence": 0.9789,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 57,
+    "original_text": "450円",
+    "corrected_text": "450円",
+    "bbox": [
+      476,
+      769,
+      80,
+      28
+    ],
+    "confidence": 1.0,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 58,
+    "original_text": "梅酒ソーダ",
+    "corrected_text": "梅酒ソーダ",
+    "bbox": [
+      72,
+      773,
+      122,
+      31
+    ],
+    "confidence": 0.9942,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 59,
+    "original_text": "山崎",
+    "corrected_text": "山崎",
+    "bbox": [
+      620,
+      804,
+      58,
+      30
+    ],
+    "confidence": 0.9999,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 60,
+    "original_text": "500円",
+    "corrected_text": "500円",
+    "bbox": [
+      477,
+      805,
+      80,
+      29
+    ],
+    "confidence": 1.0,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 61,
+    "original_text": "グレープフルーツサワー",
+    "corrected_text": "グレープフルーツサワー",
+    "bbox": [
+      74,
+      807,
+      264,
+      33
+    ],
+    "confidence": 0.9597,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 62,
+    "original_text": "1300円",
+    "corrected_text": "1300円",
+    "bbox": [
+      1020,
+      836,
+      88,
+      28
+    ],
+    "confidence": 1.0,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 63,
+    "original_text": "ハイボール",
+    "corrected_text": "ハイボール",
+    "bbox": [
+      650,
+      841,
+      122,
+      28
+    ],
+    "confidence": 0.9765,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 64,
+    "original_text": "500円",
+    "corrected_text": "500円",
+    "bbox": [
+      478,
+      843,
+      80,
+      29
+    ],
+    "confidence": 0.9999,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 65,
+    "original_text": "マンゴーサワー",
+    "corrected_text": "マンゴーサワー",
+    "bbox": [
+      77,
+      846,
+      164,
+      28
+    ],
+    "confidence": 0.9955,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 66,
+    "original_text": "1300円",
+    "corrected_text": "1300円",
+    "bbox": [
+      1022,
+      873,
+      88,
+      29
+    ],
+    "confidence": 1.0,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 67,
+    "original_text": "シングル",
+    "corrected_text": "シングル",
+    "bbox": [
+      649,
+      878,
+      97,
+      29
+    ],
+    "confidence": 0.9886,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 68,
+    "original_text": "【カクテル各種】",
+    "corrected_text": "【カクテル各種】",
+    "bbox": [
+      189,
+      955,
+      245,
+      41
+    ],
+    "confidence": 0.9983,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 69,
+    "original_text": "【マッコリボトル1000ml】",
+    "corrected_text": "【マッコリボトル1000ml】",
+    "bbox": [
+      695,
+      983,
+      389,
+      47
+    ],
+    "confidence": 0.9872,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 70,
+    "original_text": "カシスソーダ",
+    "corrected_text": "カシスソーダ",
+    "bbox": [
+      79,
+      1036,
+      137,
+      37
+    ],
+    "confidence": 0.9917,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 71,
+    "original_text": "450円",
+    "corrected_text": "450円",
+    "bbox": [
+      482,
+      1040,
+      82,
+      32
+    ],
+    "confidence": 1.0,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 72,
+    "original_text": "1600円",
+    "corrected_text": "1600円",
+    "bbox": [
+      1033,
+      1069,
+      93,
+      31
+    ],
+    "confidence": 1.0,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 73,
+    "original_text": "二東 マッコリ",
+    "corrected_text": "二東 マッコリ",
+    "bbox": [
+      629,
+      1073,
+      172,
+      36
+    ],
+    "confidence": 0.8231,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 74,
+    "original_text": "カシスウーロン",
+    "corrected_text": "カシスウーロン",
+    "bbox": [
+      81,
+      1077,
+      160,
+      33
+    ],
+    "confidence": 0.9949,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 75,
+    "original_text": "500円",
+    "corrected_text": "500円",
+    "bbox": [
+      484,
+      1080,
+      80,
+      28
+    ],
+    "confidence": 1.0,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 76,
+    "original_text": "1800円",
+    "corrected_text": "1800円",
+    "bbox": [
+      1034,
+      1107,
+      94,
+      32
+    ],
+    "confidence": 1.0,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 77,
+    "original_text": "微炭酸ソウルマッコリ",
+    "corrected_text": "微炭酸ソウルマッコリ",
+    "bbox": [
+      630,
+      1111,
+      244,
+      34
+    ],
+    "confidence": 0.9519,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 78,
+    "original_text": "カシスグレープフルーツ",
+    "corrected_text": "カシスグレープフルーツ",
+    "bbox": [
+      79,
+      1116,
+      254,
+      31
+    ],
+    "confidence": 0.9712,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 79,
+    "original_text": "550円",
+    "corrected_text": "550円",
+    "bbox": [
+      484,
+      1116,
+      80,
+      29
+    ],
+    "confidence": 1.0,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 80,
+    "original_text": "カシスオレンジ",
+    "corrected_text": "カシスオレンジ",
+    "bbox": [
+      78,
+      1155,
+      162,
+      34
+    ],
+    "confidence": 0.9911,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 81,
+    "original_text": "550円",
+    "corrected_text": "550円",
+    "bbox": [
+      484,
+      1156,
+      80,
+      29
+    ],
+    "confidence": 1.0,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 82,
+    "original_text": "ファジーネーブル",
+    "corrected_text": "ファジーネーブル",
+    "bbox": [
+      77,
+      1194,
+      191,
+      36
+    ],
+    "confidence": 0.9955,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 83,
+    "original_text": "550円",
+    "corrected_text": "550円",
+    "bbox": [
+      485,
+      1195,
+      80,
+      29
+    ],
+    "confidence": 0.9999,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 84,
+    "original_text": "【ンフトドリンク】",
+    "corrected_text": "【ソフトドリンク】",
+    "bbox": [
+      745,
+      1222,
+      279,
+      46
+    ],
+    "confidence": 0.9374,
+    "correction_source": "heuristic",
+    "changed": true
+  },
+  {
+    "id": 85,
+    "original_text": "550円",
+    "corrected_text": "550円",
+    "bbox": [
+      485,
+      1232,
+      82,
+      31
+    ],
+    "confidence": 0.9999,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 86,
+    "original_text": "ピーチグレーブフルーツ",
+    "corrected_text": "ピーチグレープフルーツ",
+    "bbox": [
+      77,
+      1234,
+      267,
+      33
+    ],
+    "confidence": 0.9768,
+    "correction_source": "heuristic",
+    "changed": true
+  },
+  {
+    "id": 87,
+    "original_text": "500円",
+    "corrected_text": "500円",
+    "bbox": [
+      486,
+      1272,
+      81,
+      32
+    ],
+    "confidence": 1.0,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 88,
+    "original_text": "ビーチウーロン",
+    "corrected_text": "ピーチウーロン",
+    "bbox": [
+      79,
+      1275,
+      167,
+      34
+    ],
+    "confidence": 0.9599,
+    "correction_source": "heuristic",
+    "changed": true
+  },
+  {
+    "id": 89,
+    "original_text": "300円",
+    "corrected_text": "300円",
+    "bbox": [
+      1060,
+      1297,
+      78,
+      29
+    ],
+    "confidence": 1.0,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 90,
+    "original_text": "ウーロン茶（冷or温）",
+    "corrected_text": "ウーロン茶（冷 or 温）",
+    "bbox": [
+      635,
+      1298,
+      245,
+      33
+    ],
+    "confidence": 0.9379,
+    "correction_source": "heuristic",
+    "changed": true
+  },
+  {
+    "id": 91,
+    "original_text": "400円",
+    "corrected_text": "400円",
+    "bbox": [
+      1057,
+      1336,
+      83,
+      29
+    ],
+    "confidence": 1.0,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 92,
+    "original_text": "オレンジジュース(100%)",
+    "corrected_text": "オレンジジュース(100%)",
+    "bbox": [
+      634,
+      1337,
+      270,
+      34
+    ],
+    "confidence": 0.9878,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 93,
+    "original_text": "グレープフルーツジュース(100%)",
+    "corrected_text": "グレープフルーツジュース(100%)",
+    "bbox": [
+      636,
+      1371,
+      373,
+      41
+    ],
+    "confidence": 0.9714,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 94,
+    "original_text": "400円",
+    "corrected_text": "400円",
+    "bbox": [
+      1057,
+      1374,
+      86,
+      31
+    ],
+    "confidence": 1.0,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 95,
+    "original_text": "350円",
+    "corrected_text": "350円",
+    "bbox": [
+      1058,
+      1414,
+      87,
+      32
+    ],
+    "confidence": 1.0,
+    "correction_source": "heuristic",
+    "changed": false
+  },
+  {
+    "id": 96,
+    "original_text": "コーラ",
+    "corrected_text": "コーラ",
+    "bbox": [
+      636,
+      1420,
+      79,
+      34
+    ],
+    "confidence": 0.9851,
+    "correction_source": "heuristic",
+    "changed": false
+  }
+]
