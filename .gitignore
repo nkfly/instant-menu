@@ -5,4 +5,4 @@ __pycache__/
 .swift-module-cache/
 .venv/
 .paddlex/
-dist/
+deploy/dist/
