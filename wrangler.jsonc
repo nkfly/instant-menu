@@ -1,0 +1,12 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "menuinbound",
+  "compatibility_date": "2026-08-10",
+  "build": {
+    "command": "python3 scripts/build_public_site.py",
+    "watch_dir": ["website", "output"]
+  },
+  "assets": {
+    "directory": "./dist"
+  }
+}

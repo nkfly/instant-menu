@@ -333,9 +333,9 @@ These features should only be considered after real restaurant demand has been v
 
 ## Public Website Hosting
 
-The public MenuInbound website can be hosted with Cloudflare Pages.
+The public MenuInbound website is deployed as a Cloudflare Worker with static assets.
 
-When Cloudflare Pages deploys the repository root, the landing page is available under `/website/` and restaurant samples remain available under `/output/`. The project can later add Pages Functions or other Cloudflare services if dynamic functionality becomes necessary.
+`website/` remains the editable landing-page source. Before every Wrangler deployment, the configured build command creates a clean `dist/` directory containing the landing page and only the restaurant assets intended for public access.
 
 The public landing page files live in their own directory:
 
@@ -345,9 +345,33 @@ website/
   styles.css
 ```
 
-The landing page references restaurant samples with paths such as `../output/honoya/menu_en.png` and `../output/honoya/menu_site/`.
+The landing page references restaurant samples with public paths such as `/output/honoya/menu_en.png` and `/output/honoya/menu_site/`.
 It remains separate from the generated restaurant menu output under `output/<restaurant>/menu_site/`.
 It is a concise Japanese-only landing page that introduces the two outputs, shows the current Honoya sample, and presents the experimental pricing. Customer-facing labels use readable Japanese typography without extra-small explanatory text.
+
+The generated deployment structure is:
+
+```text
+dist/
+  index.html
+  styles.css
+  output/
+    honoya/
+      menu_en.png
+      menu_site/
+```
+
+OCR results, translation JSON, debug images, and other internal files are not copied into `dist/`.
+
+Deploy with the existing command:
+
+```bash
+npx wrangler deploy
+```
+
+Wrangler reads `wrangler.jsonc`, runs `python3 scripts/build_public_site.py`, and uploads `dist/` as the Worker's static assets. No separate build command is required.
+
+No Cloudflare dashboard asset-directory change is required when deploying with this Wrangler configuration. Keep the custom domain attached to the existing Worker. If the existing Worker service is not named `menuinbound`, update the `name` field in `wrangler.jsonc` to match it before deploying so Wrangler updates the correct Worker.
 
 ## Current Technical Flow
 
@@ -445,9 +469,12 @@ instant-menu/
 ├── README.md
 ├── requirements.txt
 ├── main.py
+├── wrangler.jsonc
 ├── website/
 │   ├── index.html
 │   └── styles.css
+├── scripts/
+│   └── build_public_site.py
 ├── input/
 │   ├── README.md
 │   └── honoya/
