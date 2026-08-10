@@ -333,18 +333,19 @@ These features should only be considered after real restaurant demand has been v
 
 ## Public Website Hosting
 
-The public MenuInbound website is hosted with Cloudflare Pages.
+The public MenuInbound website can be hosted with Cloudflare Pages.
 
-Cloudflare Pages deploys the static HTML and assets directly from the repository root. The project can later add Pages Functions or other Cloudflare services if dynamic functionality becomes necessary.
+When Cloudflare Pages deploys the repository root, the landing page is available under `/website/` and restaurant samples remain available under `/output/`. The project can later add Pages Functions or other Cloudflare services if dynamic functionality becomes necessary.
 
-The public landing page files therefore live at the repository root:
+The public landing page files live in their own directory:
 
 ```text
-index.html
-styles.css
+website/
+  index.html
+  styles.css
 ```
 
-The landing page references restaurant samples with root-relative repository paths such as `output/honoya/menu_en.png` and `output/honoya/menu_site/`.
+The landing page references restaurant samples with paths such as `../output/honoya/menu_en.png` and `../output/honoya/menu_site/`.
 It remains separate from the generated restaurant menu output under `output/<restaurant>/menu_site/`.
 It is a concise Japanese-only landing page that introduces the two outputs, shows the current Honoya sample, and presents the experimental pricing. Customer-facing labels use readable Japanese typography without extra-small explanatory text.
 
@@ -441,11 +442,12 @@ This keeps the system small and swappable while still matching the intended arch
 
 ```text
 instant-menu/
-├── index.html
-├── styles.css
 ├── README.md
 ├── requirements.txt
 ├── main.py
+├── website/
+│   ├── index.html
+│   └── styles.css
 ├── input/
 │   ├── README.md
 │   └── honoya/
