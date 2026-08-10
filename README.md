@@ -437,9 +437,18 @@ Configure **Cloudflare Workers > Settings > Build** as follows:
 
 | Setting | Value |
 | --- | --- |
-| Root directory | `/deploy` |
+| Root directory | `deploy` |
 | Build command | `node build.mjs` |
 | Deploy command | `npx wrangler deploy` |
+
+After changing these settings, trigger a new deployment. A successful build should include log lines similar to:
+
+```text
+Built deploy/dist/ with public restaurant assets: honoya
+Read 10 files from the assets directory .../deploy/dist
+```
+
+The exact file count may increase as more public restaurant assets are added.
 
 Keep the existing custom domain attached to the Worker.
 
@@ -480,6 +489,8 @@ npx wrangler deploy --dry-run
 The verified dry run executes `node build.mjs`, reads the static assets from `deploy/dist/`, and does not install the OCR application dependencies.
 
 If Cloudflare still runs automatic dependency installation because of an existing build configuration, set the build variable `SKIP_DEPENDENCY_INSTALL=1`.
+
+If the deployment log instead reports `Output Directory: website` or reads only two files from `website/`, Cloudflare did not apply the `deploy` root directory. In that case, recheck the Worker's build settings and redeploy. That incorrect configuration publishes only the landing-page HTML and CSS, causing URLs such as `/output/honoya/menu_en.png` and `/output/honoya/menu_site/` to return `404 Not Found`.
 
 ## Tests
 
