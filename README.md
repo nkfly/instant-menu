@@ -331,11 +331,22 @@ Do not build:
 
 These features should only be considered after real restaurant demand has been validated.
 
-## Next Milestone
+## Public Website Hosting
 
-The next milestone is to build the public MenuInbound website and host it on Cloudflare.
+The public MenuInbound website is hosted with Cloudflare Pages.
 
-Cloudflare Pages is suitable for the initial implementation because the project can deploy static HTML/assets directly and can later add Pages Functions or other Cloudflare services if dynamic functionality becomes necessary.
+Cloudflare Pages deploys the static HTML and assets directly from the repository root. The project can later add Pages Functions or other Cloudflare services if dynamic functionality becomes necessary.
+
+The public landing page files therefore live at the repository root:
+
+```text
+index.html
+styles.css
+```
+
+The landing page references restaurant samples with root-relative repository paths such as `output/honoya/menu_en.png` and `output/honoya/menu_site/`.
+It remains separate from the generated restaurant menu output under `output/<restaurant>/menu_site/`.
+It is a concise Japanese-only landing page that introduces the two outputs, shows the current Honoya sample, and presents the experimental pricing. Customer-facing labels use readable Japanese typography without extra-small explanatory text.
 
 ## Current Technical Flow
 
@@ -430,6 +441,8 @@ This keeps the system small and swappable while still matching the intended arch
 
 ```text
 instant-menu/
+├── index.html
+├── styles.css
 ├── README.md
 ├── requirements.txt
 ├── main.py
@@ -736,7 +749,7 @@ Current website behavior:
 - builds a left sidebar of menu sections
 - renders menu cards with title and price
 - omits image blocks when no food photo is available
-- includes a top-right English / Japanese segmented switch that shows both languages side by side
+- includes a bottom-left English / Japanese segmented switch labeled `EN` and `JP`
 - preserves the page layout when switching languages so scroll position stays consistent
 - is optimized for mobile-first browsing similar to QR ordering menus
 
