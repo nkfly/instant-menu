@@ -425,6 +425,7 @@ It is:
 - written in Japanese for restaurant owners in Japan
 - intentionally concise
 - responsive on desktop and mobile
+- uses compact vertical spacing so sections remain clearly separated without feeling stretched
 - keeps the opening hero focused on the core message, with samples in a dedicated section
 - presents service, sample, benefits, usage flow, and pricing in that order
 - visually based on the MenuInbound orange palette
