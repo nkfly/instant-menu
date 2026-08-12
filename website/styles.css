@@ -455,13 +455,6 @@ a {
   font-size: 2.2rem;
 }
 
-.pricing-note {
-  margin: 14px 0 0;
-  color: var(--muted);
-  font-size: 0.9rem;
-  line-height: 1.7;
-}
-
 .closing {
   padding-block: 84px;
   color: var(--ink);
