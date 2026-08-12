@@ -69,6 +69,11 @@ test("landing page has no broken routes, assets, or horizontal overflow", async 
     Array.from(document.querySelectorAll("main#top > section[id]"), (section) => section.id)
   );
   expect(sectionOrder).toEqual(["service", "sample", "benefits", "flow", "pricing"]);
+
+  const navigationOrder = await page.evaluate(() =>
+    Array.from(document.querySelectorAll(".site-nav a"), (link) => link.hash.slice(1))
+  );
+  expect(navigationOrder).toEqual(sectionOrder);
 });
 
 test("restaurant menu loads and language switching preserves layout", async ({ page, request }) => {
