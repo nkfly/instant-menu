@@ -425,6 +425,8 @@ It is:
 - written in Japanese for restaurant owners in Japan
 - intentionally concise
 - responsive on desktop and mobile
+- keeps the opening hero focused on the core message, with samples in a dedicated section
+- presents service, sample, benefits, usage flow, and pricing in that order
 - visually based on the MenuInbound orange palette
 - explicitly explains that multilingual output includes English and Chinese
 - explains how multilingual menus can improve Google Maps discovery, ordering confidence, and revenue opportunities
