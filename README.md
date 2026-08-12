@@ -18,6 +18,7 @@ The public website is available at [menuinbound.com](https://menuinbound.com/).
 - Project communication, source documentation, and development discussion are in English.
 - The public MenuInbound landing page is in Japanese because restaurant owners in Japan are its primary audience.
 - Generated restaurant menu sites currently support English and Japanese.
+- The product direction is multilingual, with English and Chinese as initial customer-facing translation targets.
 
 ## Vision
 
@@ -59,6 +60,8 @@ Menu Structure Analysis
         ↓
 Restaurant-aware English Translation
         ↓
+Human Translation Expert Review
+        ↓
 Programmatic Image Rendering
         ↓
 English Menu Image + Bilingual Web Menu
@@ -80,7 +83,7 @@ The goal is readability and practical usefulness, not professional print-design 
 
 ### 1. Multilingual Menu Images
 
-MenuInbound replaces Japanese menu text with concise, restaurant-friendly English while preserving the original food photos, prices, colors, and approximate layout.
+MenuInbound replaces Japanese menu text with concise, restaurant-friendly translations while preserving the original food photos, prices, colors, and approximate layout. The current POC renders English, with Chinese planned as an initial additional language.
 
 Primary use case:
 
@@ -142,7 +145,7 @@ The initial offers are experiments for measuring restaurant demand and willingne
 The current acquisition strategy is proactive outreach:
 
 1. Find well-reviewed restaurants with Japanese-only menus and international visitors.
-2. Create a free English image and web-menu sample.
+2. Create a free multilingual image and web-menu sample.
 3. Show the owner a working result instead of selling an abstract concept.
 4. Measure whether the restaurant would use and pay for it.
 
@@ -167,7 +170,7 @@ Do not build these until real restaurant demand has been validated:
 - The structured menu data is the source of truth.
 - AI extracts, corrects, classifies, and translates text; it does not regenerate the entire menu image.
 - The final image is rendered programmatically with Pillow.
-- Human review remains part of the workflow.
+- A human translation expert reviews translated menu content before delivery.
 - Prices are preserved from the original image instead of being covered and redrawn.
 - OCR, correction, structure, translation, layout, and rendering remain independently debuggable.
 - Automatic paid API usage is opt-in.
@@ -423,6 +426,7 @@ It is:
 - intentionally concise
 - responsive on desktop and mobile
 - visually based on the MenuInbound orange palette
+- explicitly explains that multilingual output includes English and Chinese
 - connected to the Honoya menu image and web-menu samples
 
 The source uses public URLs such as:
