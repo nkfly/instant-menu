@@ -6,3 +6,6 @@ __pycache__/
 .venv/
 .paddlex/
 deploy/dist/
+node_modules/
+playwright-report/
+test-results/

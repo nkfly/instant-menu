@@ -30,27 +30,6 @@ async function loadMenu() {
     englishButton.classList.toggle("is-active", language === "en");
     japaneseButton.classList.toggle("is-active", language === "ja");
   };
-  const lockFrameHeights = () => {
-    document.querySelectorAll("[data-lang-frame]").forEach((frame) => {
-      const variants = Array.from(frame.querySelectorAll(".lang-text"));
-      let maxHeight = 0;
-      variants.forEach((variant) => {
-        const clone = variant.cloneNode(true);
-        clone.classList.remove("is-hidden");
-        clone.style.position = "absolute";
-        clone.style.visibility = "hidden";
-        clone.style.pointerEvents = "none";
-        clone.style.display = "block";
-        clone.style.inset = "auto";
-        clone.style.height = "auto";
-        frame.appendChild(clone);
-        maxHeight = Math.max(maxHeight, clone.getBoundingClientRect().height);
-        clone.remove();
-      });
-      frame.style.minHeight = `${Math.ceil(maxHeight)}px`;
-    });
-  };
-
   document.getElementById("restaurant-name").innerHTML = `
     <span class="lang-frame" data-lang-frame>
       <span class="lang-text lang-en">${data.restaurant.name_en}</span>
@@ -150,7 +129,6 @@ async function loadMenu() {
     visibility.set(section.id, index === 0 ? 1 : 0);
     observer.observe(section);
   });
-  lockFrameHeights();
   setLanguage(currentLanguage);
   if (window.location.hash) {
     setActiveLink(window.location.hash);

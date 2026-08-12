@@ -162,16 +162,20 @@ body {
 }
 
 .lang-frame {
-  display: block;
-  position: relative;
+  display: grid;
+  width: 100%;
+  min-width: 0;
 }
 
 .lang-text {
   display: block;
+  grid-area: 1 / 1;
+  min-width: 0;
 }
 
 .lang-text.is-hidden {
-  display: none;
+  visibility: hidden;
+  pointer-events: none;
 }
 
 .language-switch {

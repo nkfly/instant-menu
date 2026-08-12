@@ -1,0 +1,12 @@
+{
+  "name": "menuinbound-ui-tests",
+  "private": true,
+  "scripts": {
+    "test": "npm run test:python && npm run test:ui",
+    "test:python": "python3 -m unittest discover -s tests -v",
+    "test:ui": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0"
+  }
+}

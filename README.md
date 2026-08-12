@@ -191,6 +191,8 @@ instant-menu/
 ├── README.md
 ├── requirements.txt
 ├── main.py
+├── package.json
+├── playwright.config.mjs
 ├── website/
 │   ├── index.html
 │   └── styles.css
@@ -224,6 +226,9 @@ instant-menu/
 │   ├── structure.py
 │   └── translator.py
 └── tests/
+    ├── ui/
+    │   └── public-site.spec.mjs
+    └── test_*.py
 ```
 
 ## Local Installation
@@ -494,13 +499,29 @@ If the deployment log instead reports `Output Directory: website` or reads only 
 
 ## Tests
 
-Run the test suite with:
+Install the UI test dependency and Chromium once:
 
 ```bash
-python3 -m unittest discover -s tests
+npm install
+npx playwright install chromium
 ```
 
-The suite covers OCR correction, layout, menu-site data generation, path inference, structure classification, translation behavior, and the isolated public-site build.
+After every code change, run the complete regression suite before committing:
+
+```bash
+npm test
+```
+
+`npm test` runs the Python unit tests and Playwright UI regression tests. The suite covers:
+
+- OCR correction, layout, menu-site data generation, path inference, structure classification, and translation behavior
+- isolated construction of the public `deploy/dist/` bundle
+- successful HTTP responses for the landing page, restaurant menu, images, scripts, styles, and internal links
+- broken-image and browser-error detection
+- horizontal-overflow checks on desktop and mobile viewports
+- restaurant-menu rendering and stable page height/scroll position while switching between English and Japanese
+
+The UI suite starts a temporary local server for `deploy/dist/`, so it tests the same public directory structure that Cloudflare deploys. A failed regression must be fixed or explicitly documented before a change is committed.
 
 ## Environment Variables
 
