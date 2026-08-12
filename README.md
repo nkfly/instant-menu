@@ -427,6 +427,7 @@ It is:
 - responsive on desktop and mobile
 - visually based on the MenuInbound orange palette
 - explicitly explains that multilingual output includes English and Chinese
+- explains how multilingual menus can improve Google Maps discovery, ordering confidence, and revenue opportunities
 - connected to the Honoya menu image and web-menu samples
 
 The source uses public URLs such as:

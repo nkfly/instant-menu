@@ -248,6 +248,61 @@ a {
   line-height: 1.8;
 }
 
+.benefit-intro {
+  max-width: none;
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  align-items: end;
+  gap: 64px;
+}
+
+.benefit-lead {
+  margin: 0 0 8px;
+  color: var(--muted);
+  font-size: 1.05rem;
+  line-height: 1.9;
+}
+
+.benefit-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.benefit-card {
+  min-height: 280px;
+  padding: 34px;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: var(--white);
+  box-shadow: 12px 14px 0 #f0dfd0;
+}
+
+.benefit-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  color: var(--accent-dark);
+  background: var(--accent-soft);
+  font-family: var(--latin);
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.benefit-card h3 {
+  margin: 26px 0 12px;
+  font-size: 1.4rem;
+}
+
+.benefit-card p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.9;
+}
+
 .section-tint {
   background: #f3e8dc;
 }
@@ -511,10 +566,21 @@ a {
   }
 
   .service-grid,
+  .benefit-grid,
   .steps,
   .sample-grid,
   .pricing-grid {
     grid-template-columns: 1fr;
+  }
+
+  .benefit-intro {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .benefit-card {
+    min-height: 0;
+    padding: 28px;
   }
 
   .service-card,

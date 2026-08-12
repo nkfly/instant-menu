@@ -59,6 +59,8 @@ async function expectHealthyPage(page, request, path) {
 test("landing page has no broken routes, assets, or horizontal overflow", async ({ page, request }) => {
   await expectHealthyPage(page, request, "/");
   await expect(page.locator("main#top")).toBeVisible();
+  await expect(page.locator("#benefits")).toBeVisible();
+  await expect(page.locator(".benefit-card")).toHaveCount(2);
   await expect(page.locator("img[src='/restaurants/honoya/menu_en.png']")).toHaveCount(2);
 });
 
