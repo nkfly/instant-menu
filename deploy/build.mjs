@@ -64,7 +64,7 @@ export async function buildPublicSite(projectRoot = defaultProjectRoot) {
         continue;
       }
 
-      const targetDirectory = path.join(distDirectory, "output", entry.name);
+      const targetDirectory = path.join(distDirectory, "restaurants", entry.name);
       await mkdir(targetDirectory, { recursive: true });
       if (hasMenuImage) {
         await cp(menuImage, path.join(targetDirectory, "menu_en.png"));

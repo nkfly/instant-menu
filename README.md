@@ -417,14 +417,14 @@ It is:
 - written in Japanese for restaurant owners in Japan
 - intentionally concise
 - responsive on desktop and mobile
-- visually based on the MenuInbound green palette
+- visually based on the MenuInbound orange palette
 - connected to the Honoya menu image and web-menu samples
 
 The source uses public URLs such as:
 
 ```text
-/output/honoya/menu_en.png
-/output/honoya/menu_site/
+/restaurants/honoya/menu_en.png
+/restaurants/honoya/menu_site/
 ```
 
 ## Cloudflare Workers Deployment
@@ -445,7 +445,7 @@ After changing these settings, trigger a new deployment. A successful build shou
 
 ```text
 Built deploy/dist/ with public restaurant assets: honoya
-Read 10 files from the assets directory .../deploy/dist
+Read 7 files from the assets directory .../deploy/dist
 ```
 
 The exact file count may increase as more public restaurant assets are added.
@@ -462,7 +462,7 @@ If the Cloudflare Worker is not named `menuinbound`, update the `name` field in 
 deploy/dist/
 ├── index.html
 ├── styles.css
-└── output/
+└── restaurants/
     └── <restaurant>/
         ├── menu_en.png
         └── menu_site/
@@ -490,7 +490,7 @@ The verified dry run executes `node build.mjs`, reads the static assets from `de
 
 If Cloudflare still runs automatic dependency installation because of an existing build configuration, set the build variable `SKIP_DEPENDENCY_INSTALL=1`.
 
-If the deployment log instead reports `Output Directory: website` or reads only two files from `website/`, Cloudflare did not apply the `deploy` root directory. In that case, recheck the Worker's build settings and redeploy. That incorrect configuration publishes only the landing-page HTML and CSS, causing URLs such as `/output/honoya/menu_en.png` and `/output/honoya/menu_site/` to return `404 Not Found`.
+If the deployment log instead reports `Output Directory: website` or reads only two files from `website/`, Cloudflare did not apply the `deploy` root directory. In that case, recheck the Worker's build settings and redeploy. That incorrect configuration publishes only the landing-page HTML and CSS, causing URLs such as `/restaurants/honoya/menu_en.png` and `/restaurants/honoya/menu_site/` to return `404 Not Found`.
 
 ## Tests
 

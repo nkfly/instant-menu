@@ -1,12 +1,12 @@
 :root {
   --paper: #f7f4ee;
   --white: #fff;
-  --ink: #172019;
-  --muted: #647068;
-  --line: #d9ddd8;
-  --green: #1f5c42;
-  --green-dark: #153d2e;
-  --lime: #d9f36a;
+  --ink: #261a14;
+  --muted: #6d5a50;
+  --line: #eadbcc;
+  --accent: #cb6d21;
+  --accent-dark: #713712;
+  --accent-soft: #f7d8bf;
   --sans: "Noto Sans JP", sans-serif;
   --latin: "DM Sans", sans-serif;
 }
@@ -67,7 +67,7 @@ a {
   height: 32px;
   border-radius: 9px;
   color: var(--white);
-  background: var(--green);
+  background: var(--accent);
 }
 
 .site-nav {
@@ -83,7 +83,7 @@ a {
 }
 
 .site-nav a:hover {
-  color: var(--green);
+  color: var(--accent);
 }
 
 .hero {
@@ -97,7 +97,7 @@ a {
 
 .eyebrow {
   margin: 0 0 18px;
-  color: var(--green);
+  color: var(--accent);
   font-family: var(--latin);
   font-size: 0.9rem;
   font-weight: 700;
@@ -141,11 +141,11 @@ a {
 
 .button-primary {
   color: var(--white);
-  background: var(--green);
+  background: var(--accent);
 }
 
 .button-primary:hover {
-  background: var(--green-dark);
+  background: var(--accent-dark);
 }
 
 .text-link {
@@ -163,7 +163,7 @@ a {
   border: 1px solid var(--line);
   border-radius: 18px;
   background: var(--white);
-  box-shadow: 18px 22px 0 #dfe7d8;
+  box-shadow: 18px 22px 0 #ead5c3;
   transform: rotate(1.2deg);
 }
 
@@ -179,8 +179,8 @@ a {
   z-index: 1;
   padding: 9px 13px;
   border-radius: 999px;
-  color: var(--green-dark);
-  background: var(--lime);
+  color: var(--accent-dark);
+  background: var(--accent-soft);
   font-size: 0.9rem;
   font-weight: 700;
   transform: rotate(-3deg);
@@ -223,7 +223,7 @@ a {
 }
 
 .card-number {
-  color: var(--green);
+  color: var(--accent);
   font-family: var(--latin);
   font-size: 0.9rem;
   font-weight: 700;
@@ -241,7 +241,7 @@ a {
 }
 
 .section-tint {
-  background: #e6ece4;
+  background: #f3e8dc;
 }
 
 .steps {
@@ -264,7 +264,7 @@ a {
 }
 
 .steps span {
-  color: var(--green);
+  color: var(--accent);
   font-family: var(--latin);
   font-size: 0.9rem;
   font-weight: 700;
@@ -332,17 +332,17 @@ a {
 
 .sample-web {
   align-items: center;
-  background: var(--green-dark);
+  background: #f5dfcc;
 }
 
 .sample-web .sample-copy {
   width: 100%;
-  color: var(--white);
-  border-color: rgba(255, 255, 255, 0.15);
+  color: var(--ink);
+  border-color: var(--line);
 }
 
 .sample-web .sample-copy span {
-  color: rgba(255, 255, 255, 0.66);
+  color: var(--muted);
 }
 
 .phone-preview {
@@ -352,7 +352,7 @@ a {
   margin-top: 36px;
   padding: 26px 18px 18px;
   overflow: hidden;
-  border: 7px solid #0b241a;
+  border: 7px solid #3e1f0d;
   border-bottom: 0;
   border-radius: 34px 34px 0 0;
   background: #f6f4ef;
@@ -365,7 +365,7 @@ a {
   width: 64px;
   height: 7px;
   border-radius: 99px;
-  background: #172019;
+  background: #261a14;
   transform: translateX(-50%);
 }
 
@@ -384,7 +384,7 @@ a {
 
 .phone-content b {
   padding-bottom: 7px;
-  border-bottom: 1px solid #ccd3cd;
+  border-bottom: 1px solid #dfcdbd;
   font-size: 0.9rem;
 }
 
@@ -401,7 +401,7 @@ a {
   padding: 7px 10px;
   border-radius: 99px;
   color: var(--white);
-  background: var(--green);
+  background: var(--accent);
   font-family: var(--latin);
   font-size: 0.9rem;
 }
@@ -440,7 +440,7 @@ a {
 
 .pricing-grid .featured {
   color: var(--white);
-  background: var(--green);
+  background: var(--accent);
 }
 
 .pricing-grid .featured span {
@@ -456,8 +456,8 @@ a {
 
 .closing {
   padding-block: 110px;
-  color: var(--white);
-  background: var(--green-dark);
+  color: var(--ink);
+  background: #f5dfcc;
 }
 
 .closing-inner {
@@ -465,13 +465,17 @@ a {
 }
 
 .closing .eyebrow {
-  color: var(--lime);
+  color: var(--accent);
 }
 
 .button-light {
   margin-top: 34px;
-  color: var(--green-dark);
-  background: var(--lime);
+  color: var(--white);
+  background: var(--accent);
+}
+
+.button-light:hover {
+  background: var(--accent-dark);
 }
 
 .site-footer {

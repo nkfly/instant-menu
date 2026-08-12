@@ -31,9 +31,9 @@ class PublicSiteBuildTests(unittest.TestCase):
             self.assertIn("honoya", result.stdout)
             self.assertTrue((dist / "index.html").is_file())
             self.assertTrue((dist / "styles.css").is_file())
-            self.assertTrue((dist / "output" / "honoya" / "menu_en.png").is_file())
-            self.assertTrue((dist / "output" / "honoya" / "menu_site" / "index.html").is_file())
-            self.assertFalse((dist / "output" / "honoya" / "ocr_result.json").exists())
+            self.assertTrue((dist / "restaurants" / "honoya" / "menu_en.png").is_file())
+            self.assertTrue((dist / "restaurants" / "honoya" / "menu_site" / "index.html").is_file())
+            self.assertFalse((dist / "restaurants" / "honoya" / "ocr_result.json").exists())
 
 
 if __name__ == "__main__":
