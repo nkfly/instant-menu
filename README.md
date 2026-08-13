@@ -434,6 +434,7 @@ It is:
 - explains how multilingual menus can improve Google Maps discovery, ordering confidence, revenue opportunities, and genuine customer reviews
 - connected to the Honoya menu image and web-menu samples
 - embeds a short Google Form on the homepage for one-page free-trial requests
+- gives the embedded form enough responsive height to avoid a nested scrollbar on mobile
 
 The free trial is explicitly limited to one menu page. Restaurant owners can review the result before optionally purchasing the full service. Google Forms sends responses to Google Sheets for the current manual sales workflow, so the public site remains static and does not require a backend, database, account system, or upload API.
 

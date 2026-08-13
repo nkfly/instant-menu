@@ -68,6 +68,14 @@ test("landing page has no broken routes, assets, or horizontal overflow", async 
     "src",
     "https://docs.google.com/forms/d/e/1FAIpQLSfhinHZxdd1NGcVe0Bih6qGnUSbguSM_L5FZUURZOSQBxuyfw/viewform?embedded=true&hl=ja"
   );
+  await expect(page.locator("#request iframe")).toHaveAttribute("scrolling", "no");
+
+  const requestLayout = await page.locator("#request iframe").evaluate((iframe) => ({
+    height: iframe.getBoundingClientRect().height,
+    viewportWidth: document.documentElement.clientWidth,
+  }));
+  const minimumFormHeight = requestLayout.viewportWidth <= 520 ? 1380 : 1100;
+  expect(requestLayout.height).toBeGreaterThanOrEqual(minimumFormHeight);
 
   const sectionOrder = await page.evaluate(() =>
     Array.from(document.querySelectorAll("main#top > section[id]"), (section) => section.id)
