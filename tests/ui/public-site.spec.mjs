@@ -76,7 +76,7 @@ test("landing page has no broken routes, assets, or horizontal overflow", async 
     height: iframe.getBoundingClientRect().height,
     viewportWidth: document.documentElement.clientWidth,
   }));
-  const minimumFormHeight = requestLayout.viewportWidth <= 520 ? 1380 : 1100;
+  const minimumFormHeight = requestLayout.viewportWidth <= 520 ? 1430 : 1160;
   expect(requestLayout.height).toBeGreaterThanOrEqual(minimumFormHeight);
 
   const sectionOrder = await page.evaluate(() =>
