@@ -1,8 +1,9 @@
 {
   "restaurant": {
-    "slug": "honoya",
+    "id": "019ffb69-bcff-7f7b-be96-e9656088b606",
+    "slug": "honoya-7k3m2q",
     "name_en": "Honoya",
-    "name_ja": "Honoya",
+    "name_ja": "はの家",
     "tagline_en": "English Menu",
     "tagline_ja": "英語メニュー"
   },

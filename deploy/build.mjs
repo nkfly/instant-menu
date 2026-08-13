@@ -1,11 +1,13 @@
 #!/usr/bin/env node
 
-import { cp, mkdir, readdir, rm, stat } from "node:fs/promises";
+import { cp, mkdir, readFile, readdir, rm, stat } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const scriptDirectory = path.dirname(fileURLToPath(import.meta.url));
 const defaultProjectRoot = path.resolve(scriptDirectory, "..");
+const publicSlugPattern = /^[a-z0-9]+(?:-[a-z0-9]+)*-[a-z0-9]{6}$/;
+const uuidV7Pattern = /^[0-9a-f]{8}-[0-9a-f]{4}-7[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
 
 async function isFile(filePath) {
   try {
@@ -21,6 +23,25 @@ async function isDirectory(directoryPath) {
   } catch {
     return false;
   }
+}
+
+async function loadRestaurantMetadata(metadataPath) {
+  let metadata;
+  try {
+    metadata = JSON.parse(await readFile(metadataPath, "utf8"));
+  } catch (error) {
+    throw new Error(`Missing or invalid restaurant metadata: ${metadataPath}`, { cause: error });
+  }
+
+  if (!uuidV7Pattern.test(metadata.id || "")) {
+    throw new Error(`Restaurant metadata requires a valid UUIDv7 id: ${metadataPath}`);
+  }
+  if (!publicSlugPattern.test(metadata.public_slug || "")) {
+    throw new Error(
+      `Restaurant metadata requires a public_slug ending in a six-character suffix: ${metadataPath}`
+    );
+  }
+  return metadata;
 }
 
 export async function buildPublicSite(projectRoot = defaultProjectRoot) {
@@ -48,6 +69,8 @@ export async function buildPublicSite(projectRoot = defaultProjectRoot) {
   }
 
   const publishedRestaurants = [];
+  const publishedIds = new Set();
+  const publishedSlugs = new Set();
   if (await isDirectory(restaurantOutputDirectory)) {
     const entries = await readdir(restaurantOutputDirectory, { withFileTypes: true });
     const restaurantDirectories = entries
@@ -64,15 +87,25 @@ export async function buildPublicSite(projectRoot = defaultProjectRoot) {
         continue;
       }
 
-      const targetDirectory = path.join(distDirectory, "restaurants", entry.name);
+      const metadata = await loadRestaurantMetadata(path.join(restaurantDirectory, "restaurant.json"));
+      if (publishedIds.has(metadata.id)) {
+        throw new Error(`Duplicate restaurant id: ${metadata.id}`);
+      }
+      if (publishedSlugs.has(metadata.public_slug)) {
+        throw new Error(`Duplicate public restaurant slug: ${metadata.public_slug}`);
+      }
+      publishedIds.add(metadata.id);
+      publishedSlugs.add(metadata.public_slug);
+
+      const targetDirectory = path.join(distDirectory, "restaurants", metadata.public_slug);
       await mkdir(targetDirectory, { recursive: true });
+      if (hasMenuSite) {
+        await cp(menuSite, targetDirectory, { recursive: true });
+      }
       if (hasMenuImage) {
         await cp(menuImage, path.join(targetDirectory, "menu_en.png"));
       }
-      if (hasMenuSite) {
-        await cp(menuSite, path.join(targetDirectory, "menu_site"), { recursive: true });
-      }
-      publishedRestaurants.push(entry.name);
+      publishedRestaurants.push(metadata.public_slug);
     }
   }
 

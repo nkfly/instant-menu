@@ -212,6 +212,7 @@ instant-menu/
 │       ├── corrected_ocr_result.json
 │       ├── structure_result.json
 │       ├── translation_result.json
+│       ├── restaurant.json
 │       ├── debug_ocr.png
 │       ├── menu_en.png
 │       └── menu_site/
@@ -436,9 +437,30 @@ It is:
 The source uses public URLs such as:
 
 ```text
-/restaurants/honoya/menu_en.png
-/restaurants/honoya/menu_site/
+/restaurants/honoya-7k3m2q/
+/restaurants/honoya-7k3m2q/menu_en.png
 ```
+
+### Public Restaurant Identity
+
+Each `output/<restaurant>/` directory requires a `restaurant.json` file before it can be published:
+
+```json
+{
+  "id": "019ffb69-bcff-7f7b-be96-e9656088b606",
+  "public_slug": "honoya-7k3m2q",
+  "name_en": "Honoya",
+  "name_ja": "はの家"
+}
+```
+
+- `id` is an immutable UUIDv7 used as the internal restaurant identity.
+- `public_slug` combines a readable normalized name with a random six-character suffix.
+- Both values must be unique and must never be reused for another restaurant.
+- The public slug should remain stable even if the restaurant display name changes.
+- A branch or area may be included before the suffix, for example `honoya-ueno-7k3m2q`.
+
+The internal generated files remain under `output/<restaurant>/menu_site/`, but deployment flattens that directory into the restaurant URL. Customers therefore open `/restaurants/<public_slug>/` directly without a `menu_site` subpath.
 
 ## Cloudflare Workers Deployment
 
@@ -457,7 +479,7 @@ Configure **Cloudflare Workers > Settings > Build** as follows:
 After changing these settings, trigger a new deployment. A successful build should include log lines similar to:
 
 ```text
-Built deploy/dist/ with public restaurant assets: honoya
+Built deploy/dist/ with public restaurant assets: honoya-7k3m2q
 Read 7 files from the assets directory .../deploy/dist
 ```
 
@@ -476,9 +498,12 @@ deploy/dist/
 ├── index.html
 ├── styles.css
 └── restaurants/
-    └── <restaurant>/
-        ├── menu_en.png
-        └── menu_site/
+    └── <public_slug>/
+        ├── index.html
+        ├── menu_data.json
+        ├── script.js
+        ├── styles.css
+        └── menu_en.png
 ```
 
 Only public restaurant assets are copied. These files are excluded:
@@ -503,7 +528,7 @@ The verified dry run executes `node build.mjs`, reads the static assets from `de
 
 If Cloudflare still runs automatic dependency installation because of an existing build configuration, set the build variable `SKIP_DEPENDENCY_INSTALL=1`.
 
-If the deployment log instead reports `Output Directory: website` or reads only two files from `website/`, Cloudflare did not apply the `deploy` root directory. In that case, recheck the Worker's build settings and redeploy. That incorrect configuration publishes only the landing-page HTML and CSS, causing URLs such as `/restaurants/honoya/menu_en.png` and `/restaurants/honoya/menu_site/` to return `404 Not Found`.
+If the deployment log instead reports `Output Directory: website` or reads only two files from `website/`, Cloudflare did not apply the `deploy` root directory. In that case, recheck the Worker's build settings and redeploy. That incorrect configuration publishes only the landing-page HTML and CSS, causing URLs such as `/restaurants/honoya-7k3m2q/` and `/restaurants/honoya-7k3m2q/menu_en.png` to return `404 Not Found`.
 
 ## Tests
 

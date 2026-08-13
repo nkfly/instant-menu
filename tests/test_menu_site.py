@@ -71,6 +71,20 @@ class MenuSiteTests(unittest.TestCase):
         self.assertEqual(menu["sections"][0]["items"][1]["name_en"], "Cassis Soda")
         self.assertEqual(menu["sections"][0]["items"][1]["price"], "450円")
 
+        public_menu = _build_menu_data(
+            "honoya",
+            blocks,
+            {
+                "id": "019ffb69-bcff-7f7b-be96-e9656088b606",
+                "public_slug": "honoya-7k3m2q",
+                "name_en": "Honoya",
+                "name_ja": "はの家",
+            },
+        )
+        self.assertEqual(public_menu["restaurant"]["id"], "019ffb69-bcff-7f7b-be96-e9656088b606")
+        self.assertEqual(public_menu["restaurant"]["slug"], "honoya-7k3m2q")
+        self.assertEqual(public_menu["restaurant"]["name_ja"], "はの家")
+
 
 if __name__ == "__main__":
     unittest.main()

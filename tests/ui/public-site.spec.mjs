@@ -63,7 +63,7 @@ test("landing page has no broken routes, assets, or horizontal overflow", async 
   await expect(page.locator(".benefit-card")).toHaveCount(3);
   await expect(page.locator(".hero .actions")).toHaveCount(0);
   await expect(page.locator(".hero-preview")).toHaveCount(0);
-  await expect(page.locator("img[src='/restaurants/honoya/menu_en.png']")).toHaveCount(1);
+  await expect(page.locator("img[src='/restaurants/honoya-7k3m2q/menu_en.png']")).toHaveCount(1);
 
   const sectionOrder = await page.evaluate(() =>
     Array.from(document.querySelectorAll("main#top > section[id]"), (section) => section.id)
@@ -77,7 +77,7 @@ test("landing page has no broken routes, assets, or horizontal overflow", async 
 });
 
 test("restaurant menu loads and language switching preserves layout", async ({ page, request }) => {
-  await expectHealthyPage(page, request, "/restaurants/honoya/menu_site/");
+  await expectHealthyPage(page, request, "/restaurants/honoya-7k3m2q/");
   await expect(page.locator(".menu-card").first()).toBeVisible();
   await page.evaluate(() => document.fonts.ready);
 

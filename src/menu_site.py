@@ -22,17 +22,25 @@ def build_menu_site(
     site_dir = output_dir / "menu_site"
     site_dir.mkdir(parents=True, exist_ok=True)
 
-    menu_data = _build_menu_data(restaurant_slug, translated_blocks)
+    restaurant_metadata = _load_restaurant_metadata(output_dir / "restaurant.json")
+    menu_data = _build_menu_data(restaurant_slug, translated_blocks, restaurant_metadata)
     _write_menu_data(site_dir / "menu_data.json", menu_data)
-    _write_index_html(site_dir / "index.html", restaurant_slug)
+    restaurant_name = str(menu_data["restaurant"]["name_en"])
+    _write_index_html(site_dir / "index.html", restaurant_name)
     _write_styles(site_dir / "styles.css")
     _write_script(site_dir / "script.js")
 
     return site_dir
 
 
-def _build_menu_data(restaurant_slug: str, translated_blocks: list[TranslationBlock]) -> dict[str, object]:
-    restaurant_name = _humanize_slug(restaurant_slug)
+def _build_menu_data(
+    restaurant_slug: str,
+    translated_blocks: list[TranslationBlock],
+    restaurant_metadata: dict[str, object] | None = None,
+) -> dict[str, object]:
+    metadata = restaurant_metadata or {}
+    restaurant_name = str(metadata.get("name_en") or _humanize_slug(restaurant_slug))
+    public_slug = str(metadata.get("public_slug") or restaurant_slug)
     sections: list[dict[str, object]] = []
     current_section = _new_section("Menu", "メニュー")
     sections.append(current_section)
@@ -86,16 +94,29 @@ def _build_menu_data(restaurant_slug: str, translated_blocks: list[TranslationBl
     if not filtered_sections:
         filtered_sections = sections[:1]
 
+    restaurant = {
+        "slug": public_slug,
+        "name_en": restaurant_name,
+        "name_ja": str(metadata.get("name_ja") or restaurant_name),
+        "tagline_en": "English Menu",
+        "tagline_ja": "英語メニュー",
+    }
+    if metadata.get("id"):
+        restaurant["id"] = str(metadata["id"])
+
     return {
-        "restaurant": {
-            "slug": restaurant_slug,
-            "name_en": restaurant_name,
-            "name_ja": restaurant_name,
-            "tagline_en": "English Menu",
-            "tagline_ja": "英語メニュー",
-        },
+        "restaurant": restaurant,
         "sections": filtered_sections,
     }
+
+
+def _load_restaurant_metadata(path: Path) -> dict[str, object]:
+    if not path.is_file():
+        return {}
+    payload = json.loads(path.read_text(encoding="utf-8"))
+    if not isinstance(payload, dict):
+        raise ValueError(f"Restaurant metadata must be a JSON object: {path}")
+    return payload
 
 
 def _new_section(title_en: str, title_ja: str) -> dict[str, object]:
@@ -167,13 +188,13 @@ def _write_menu_data(path: Path, payload: dict[str, object]) -> None:
     path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
-def _write_index_html(path: Path, restaurant_slug: str) -> None:
+def _write_index_html(path: Path, restaurant_name: str) -> None:
     html = f"""<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{_humanize_slug(restaurant_slug)} Menu</title>
+    <title>{restaurant_name} Menu</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
