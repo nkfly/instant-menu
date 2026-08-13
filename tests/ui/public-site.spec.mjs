@@ -61,7 +61,7 @@ test("landing page has no broken routes, assets, or horizontal overflow", async 
   await expect(page.locator("main#top")).toBeVisible();
   await expect(page.locator("#benefits")).toBeVisible();
   await expect(page.locator(".benefit-card")).toHaveCount(3);
-  await expect(page.getByText("AIで読み取り・翻訳し、内容を確認します。", { exact: true })).toBeVisible();
+  await expect(page.getByText("AIで読み取り・翻訳・内容確認", { exact: true })).toBeVisible();
   await expect(page.getByText("翻訳の専門家", { exact: false })).toHaveCount(0);
   await expect(page.locator(".hero .actions")).toHaveCount(0);
   await expect(page.locator(".hero-preview")).toHaveCount(0);
