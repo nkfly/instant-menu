@@ -461,22 +461,49 @@ a {
   background: #f5dfcc;
 }
 
-.closing-inner {
-  text-align: center;
+.request-inner {
+  display: grid;
+  grid-template-columns: minmax(0, 0.75fr) minmax(480px, 1.25fr);
+  align-items: start;
+  gap: 64px;
 }
 
 .closing .eyebrow {
   color: var(--accent);
 }
 
-.button-light {
-  margin-top: 34px;
-  color: var(--white);
-  background: var(--accent);
+.request-copy {
+  position: sticky;
+  top: 40px;
 }
 
-.button-light:hover {
-  background: var(--accent-dark);
+.request-copy > p:not(.eyebrow) {
+  margin: 24px 0 0;
+  color: var(--muted);
+  font-size: 1rem;
+  line-height: 1.9;
+}
+
+.request-copy .request-note {
+  margin-top: 12px;
+  color: var(--accent-dark);
+  font-weight: 700;
+}
+
+.form-frame {
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: var(--white);
+  box-shadow: 12px 14px 0 #e9c9ad;
+}
+
+.form-frame iframe {
+  display: block;
+  width: 100%;
+  height: 1106px;
+  border: 0;
 }
 
 .site-footer {
@@ -510,6 +537,15 @@ a {
   .benefit-intro {
     grid-template-columns: 1fr;
     gap: 24px;
+  }
+
+  .request-inner {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+
+  .request-copy {
+    position: static;
   }
 
   .benefit-card {
@@ -580,6 +616,15 @@ a {
 
   .pricing-section {
     padding-top: 30px;
+  }
+
+  .form-frame {
+    border-radius: 12px;
+    box-shadow: 7px 8px 0 #e9c9ad;
+  }
+
+  .form-frame iframe {
+    height: 1160px;
   }
 }
 

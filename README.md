@@ -428,11 +428,14 @@ It is:
 - responsive on desktop and mobile
 - uses compact vertical spacing so sections remain clearly separated without feeling stretched
 - keeps the opening hero focused on the core message, with samples in a dedicated section
-- presents service, sample, benefits, usage flow, and pricing in that order, with matching desktop navigation
+- presents service, sample, benefits, usage flow, pricing, and free trial in that order, with matching desktop navigation
 - visually based on the MenuInbound orange palette
 - explicitly explains that multilingual output includes English and Chinese
 - explains how multilingual menus can improve Google Maps discovery, ordering confidence, revenue opportunities, and genuine customer reviews
 - connected to the Honoya menu image and web-menu samples
+- embeds a short Google Form on the homepage for one-page free-trial requests
+
+The free trial is explicitly limited to one menu page. Restaurant owners can review the result before optionally purchasing the full service. Google Forms sends responses to Google Sheets for the current manual sales workflow, so the public site remains static and does not require a backend, database, account system, or upload API.
 
 The source uses public URLs such as:
 
@@ -552,6 +555,7 @@ npm test
 - successful HTTP responses for the landing page, restaurant menu, images, scripts, styles, and internal links
 - broken-image and browser-error detection
 - horizontal-overflow checks on desktop and mobile viewports
+- presence and responsive containment of the homepage Google Form
 - restaurant-menu rendering and stable page height/scroll position while switching between English and Japanese
 
 The UI suite starts a temporary local server for `deploy/dist/`, so it tests the same public directory structure that Cloudflare deploys. A failed regression must be fixed or explicitly documented before a change is committed.

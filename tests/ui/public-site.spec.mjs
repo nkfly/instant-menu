@@ -64,11 +64,15 @@ test("landing page has no broken routes, assets, or horizontal overflow", async 
   await expect(page.locator(".hero .actions")).toHaveCount(0);
   await expect(page.locator(".hero-preview")).toHaveCount(0);
   await expect(page.locator("img[src='/restaurants/honoya-7k3m2q/menu_en.png']")).toHaveCount(1);
+  await expect(page.locator("#request iframe")).toHaveAttribute(
+    "src",
+    "https://docs.google.com/forms/d/e/1FAIpQLSfhinHZxdd1NGcVe0Bih6qGnUSbguSM_L5FZUURZOSQBxuyfw/viewform?embedded=true&hl=ja"
+  );
 
   const sectionOrder = await page.evaluate(() =>
     Array.from(document.querySelectorAll("main#top > section[id]"), (section) => section.id)
   );
-  expect(sectionOrder).toEqual(["service", "sample", "benefits", "flow", "pricing"]);
+  expect(sectionOrder).toEqual(["service", "sample", "benefits", "flow", "pricing", "request"]);
 
   const navigationOrder = await page.evaluate(() =>
     Array.from(document.querySelectorAll(".site-nav a"), (link) => link.hash.slice(1))
