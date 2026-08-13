@@ -430,7 +430,7 @@ It is:
 - presents service, sample, benefits, usage flow, and pricing in that order, with matching desktop navigation
 - visually based on the MenuInbound orange palette
 - explicitly explains that multilingual output includes English and Chinese
-- explains how multilingual menus can improve Google Maps discovery, ordering confidence, and revenue opportunities
+- explains how multilingual menus can improve Google Maps discovery, ordering confidence, revenue opportunities, and genuine customer reviews
 - connected to the Honoya menu image and web-menu samples
 
 The source uses public URLs such as:
