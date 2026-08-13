@@ -285,12 +285,6 @@ a {
   font-size: 1.1rem;
 }
 
-.steps small {
-  color: var(--muted);
-  font-size: 0.92rem;
-  line-height: 1.6;
-}
-
 .sample-heading {
   max-width: none;
   display: flex;

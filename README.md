@@ -170,7 +170,7 @@ Do not build these until real restaurant demand has been validated:
 - The structured menu data is the source of truth.
 - AI extracts, corrects, classifies, and translates text; it does not regenerate the entire menu image.
 - The final image is rendered programmatically with Pillow.
-- A human translation expert reviews translated menu content before delivery.
+- AI-assisted translations are manually reviewed before delivery.
 - Prices are preserved from the original image instead of being covered and redrawn.
 - OCR, correction, structure, translation, layout, and rendering remain independently debuggable.
 - Automatic paid API usage is opt-in.
